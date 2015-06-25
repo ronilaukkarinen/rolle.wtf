@@ -81,8 +81,8 @@
                     <p>In 22th of May I founded my first company with my graphic-designer-friend Juha Laitinen and I've been entrepreneur from that moment. We are strictly local, Jyväskylä based boutique agency. Our main products are bespoke WordPress-websites and webstores.</p>
 
                         <ul>
-                            <li><a href="https://www.dude.fi"><span class="fa fa-home"></span>Home page</a></li>
-                            <li><a href="mailto:moro@dude.fi"><span class="fa fa-envelope"></span>E-mail</a></li>
+                            <li><a href="https://www.dude.fi"><span class="fa fa-home"></span>Company website</a></li>
+                            <li><a href="mailto:moro@dude.fi"><span class="fa fa-envelope"></span>Inquiries</a></li>
                         </ul>
 
                     <div class="notes">
