@@ -143,7 +143,7 @@
 
                     <h4><span class="fa fa-photo"></span> Photos</h4>
 
-                    <p>I have two cameras (Canon EOS 400D &amp; Nikon D40) and an flagship Android Phone. I've been photographing a long time, but only for fun and as a hobby.</p>
+                    <p>I have two cameras (Canon EOS 400D &amp; Nikon D40) and a flagship Android Phone. I've been photographing a long time, but only for fun and as a hobby.</p>
 
                    <ul>
                         <li><a href="http://instagram.com/rolle_"><span class="fa fa-instagram"></span>Instagram</a></li>
