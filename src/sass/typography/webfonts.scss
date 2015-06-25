@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Webfonts
+----------------------------------------------------------------
+# Here you can see the most generic webfonts we use.
+# Please do remove the lines of fonts and weights you don't need,
+# otherwise they will weight up your output CSS file.
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Webfonts that we want to load up from Google Fonts website
+--------------------------------------------------------------*/
+
+$google-protocol: "http";
+$google-webfont: "Source Sans Pro:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic";
+
+@if $google-protocol == "http" or $google-protocol == "https" {
+    @import url('#{$google-protocol}://fonts.googleapis.com/css?family=#{$google-webfont}');
+}
+
+/*--------------------------------------------------------------
+# Webfonts that we want to load up directly from dist/fonts/
+--------------------------------------------------------------*/
+
+/* Montserrat
+------------------------------------ */
+@include fontFace('Montserrat','../fonts/montserrat-regular-webfont', 400);
+@include fontFace('Montserrat','../fonts/montserrat-bold-webfont', 700);
+
+/* Freight
+------------------------------------ */
+@include fontFace('Freight','../fonts/freight', 400);

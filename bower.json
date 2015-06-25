@@ -1,0 +1,15 @@
+{
+    "name": "modern-html5-boilerplate",
+    "dependencies": {
+        "jquery": "*",
+        "matchMedia": "*",
+        "respond-minmax": "*",
+        "html5shiv": "*",
+        "font-awesome": "*",
+        "knife": "*",
+        "jeet": "*",
+        "sanitize-css": "*",
+        "jeet": "*",
+        "packery": "*"
+    }
+}

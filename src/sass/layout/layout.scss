@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+# Reset
+--------------------------------------------------------------*/
+@import "../../../bower_components/sanitize-css/sanitize";
+
+/*--------------------------------------------------------------
+# Glyph icons
+--------------------------------------------------------------*/
+@import "../../../bower_components/font-awesome/scss/font-awesome";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "../../../bower_components/jeet/scss/jeet/index";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "config";
+@import "main";
+@import "mixins";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "../typography/fontface";
+@import "../typography/webfonts";
+@import "../typography/knife/index";
+
+/*--------------------------------------------------------------
+# Layout start >>>
+--------------------------------------------------------------*/
+
+body
+{
+    color: $textcolor;
+}
+
+.header-container
+{
+    background: $maincolor;
+}
+
+.container
+{
+    @include center($max_width: $container-desktop, $pad: $defaultpadding);
+}
+
+.slide
+{
+    overflow: auto;
+
+    padding: 4% 1%;
+
+    text-align: center;
+
+    background: #fff;
+
+    .main-section
+    {
+
+        h1 
+        {
+            @media(min-width: $container-ipad) {
+                @include type-scale('large', 1, 0);
+            }
+            
+        }
+
+        p {
+            @include center($max_width: 600px, $pad: $defaultpadding);
+        }
+
+        .avatar
+        {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            max-height: 200px;
+
+            border-radius: 50%;
+        }
+    }
+}
+
+.footer-container {
+    p {
+        @include type-scale('normal');
+        opacity: 0.6;
+        text-align: center;
+    }
+}
+
