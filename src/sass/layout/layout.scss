@@ -51,6 +51,9 @@ body
     overflow: auto;
 
     padding: 4% 1%;
+    @media(max-width: $container-mobile) {
+        padding: 10% 1%;
+    }
 
     text-align: center;
 
@@ -86,17 +89,23 @@ body
 .items {
     overflow: auto;
     padding: 0;
+    overflow: hidden;
+    margin: 0;
+
+    .item-wrapper {
+        @include krem('padding', 30px);
+    }
 
     .item {
         background: #ABB7B7;
         @include span(1/4);
     
-        @media(max-width: $container-mobile) {
+        @media(max-width: $container-ipad) {
             @include stack();
         }
 
         margin:0;
-        @include krem('padding', 30px);
+        padding: 0;
         overflow: hidden;
         position: relative; 
     
@@ -149,6 +158,24 @@ body
             margin-top: 0;
             color: #ffffff;
         }
+
+        ul, li {
+            list-style: none;
+            color: #ffffff;
+
+            .fa {
+                margin-right: 8px;
+            }
+
+            a {
+                color: rgba(#ffffff,1);
+                font-weight: bold;
+
+                &:hover {
+                    color: rgba(#ffffff,0.5);
+                }
+            }
+        }
         
         p
         {
@@ -166,13 +193,60 @@ body
         &.item-twitter {
             background: #55acee;
         }
+
+        &.item-medium {
+            background: #333332;
+
+            .overlay-link {
+                background: #151515;
+            }
+        }
+
+        &.item-code {
+            background: #999999;
+
+            .overlay-link {
+                background: #6cc644;
+            }
+
+        }
+
+        &.item-company {
+            background: #E95F4F;
+        }
+
+        &.item-beer {
+            background: darken(#FECB2E,5%);
+
+            img {
+                width: 19px;
+                height: auto;
+                margin-right: 6px;
+                position: relative;
+                left: -2px;
+                top: -2px;
+            }
+        }
+
+        &.item-photos {
+            background: #3f729b;
+
+            img {
+                width: 17px;
+                height: auto;
+                margin-right: 6px;
+                top: -1px;
+                position: relative;
+            }
+        }
+
     }
 
 }
 
 .footer-container {
 
-    margin-top: 30px;
+    margin-top: 40px;
 
     p {
         @include type-scale('normal');

@@ -1,10 +1,14 @@
-$( document ).ready(function() {
+$(window).load(function() {
 
-	// Packery
-	var $container = $('.items').packery({
-	   itemSelector: '.item',
-	   gutter: 0,
-	   isResizeBound: true
-	});
+	setTimeout(function() {
+
+		// Packery
+		var $container = $('.items').packery({
+		   itemSelector: '.item',
+		   gutter: 0
+		});
+
+	}, 50);
+
 
 });
