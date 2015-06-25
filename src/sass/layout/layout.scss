@@ -252,6 +252,17 @@ body
         @include type-scale('normal');
         opacity: 0.6;
         text-align: center;
+
+        span {
+            position: relative;
+            top: 7px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+
+        a {
+            font-weight: bolder;
+        }
     }
 }
 

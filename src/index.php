@@ -169,7 +169,7 @@
         <div class="footer-container">
 
             <footer class="wrapper">
-                <p>Code with passion.</p>
+                <p>Code with passion. This page is 100% open source. <a href="https://github.com/ronilaukkarinen/rolle.wtf">View in <span class="fa fa-github"></span> Github</a>.</p>
             </footer>
 
         </div>
