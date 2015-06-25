@@ -64,7 +64,7 @@ body
             @media(min-width: $container-ipad) {
                 @include type-scale('large', 1, 0);
             }
-            
+
         }
 
         p {
@@ -83,7 +83,97 @@ body
     }
 }
 
+.items {
+    overflow: auto;
+    padding: 0;
+
+    .item {
+        background: #ABB7B7;
+        @include span(1/4);
+    
+        @media(max-width: $container-mobile) {
+            @include stack();
+        }
+
+        margin:0;
+        @include krem('padding', 30px);
+        overflow: hidden;
+        position: relative; 
+    
+        .fa {
+            margin-right: 6px;
+            position: relative;
+            bottom: -3px;
+        }
+
+        .notes {
+            p {
+                @include type-scale('normal');
+                margin-bottom: 0;
+
+                .fa {
+                    bottom: -6px;
+                }
+            }
+        }
+
+        .overlay-link {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            transition: 0.55s;
+            background: #1E8BC3;
+
+            p {
+                @include centered();
+                width: 100%;
+                @include type-scale('xxlarge');
+                font-family: $headingfont;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+
+        }
+
+        h4 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        
+        p
+        {
+            color: #ffffff;
+        }
+
+        &.item-rollemaa {
+            background: #A9BA8F;
+
+            .overlay-link {
+                background: #547424;
+            }
+        }
+
+        &.item-twitter {
+            background: #55acee;
+        }
+    }
+
+}
+
 .footer-container {
+
+    margin-top: 30px;
+
     p {
         @include type-scale('normal');
         opacity: 0.6;

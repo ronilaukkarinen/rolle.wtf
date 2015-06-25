@@ -41,10 +41,85 @@
 
         </div>
 
+        <div class="items">
+
+            <div class="item item-rollemaa">
+            <a href="http://www.rollemaa.org" class="overlay-link"><p>Visit</p></a>
+
+                <h4><span class="fa fa-rss"></span>A personal blog: Rollemaa.org (in Finnish)</h4>
+
+                <p>Rollemaa.org (previously rolleweb.net) was my first weblog. Currently published over 1500 articles. Blogging couple of times per month, but used to blog almost daily.</p>
+
+                <div class="notes">
+                    <p><span class="fa fa-flag"></span>Language: Finnish</p>
+                </div>
+
+            </div><!--/.item-->
+
+            <div class="item item-twitter">
+            <a href="http://www.twitter.com/rolle" class="overlay-link"><p>Tweet</p></a>
+
+                <h4><span class="fa fa-twitter"></span>Twitter</h4>
+
+                <p>I joined Twitter in 8th of January in 2008. Twitter has been my favourite social media channel every since.</p>
+
+                <div class="notes">
+                    <p><span class="fa fa-flag"></span>Language: Mostly Finnish, sometimes English</p>
+                </div>
+
+            </div><!--/.item-->
+
+            <div class="item item-company">
+ 
+                <h4><span class="fa fa-flask"></span>A web design agency: Digitoimisto Dude Oy</h4>
+
+                <p>In 22th of May I founded my first company with my graphic-designer-friend Juha Laitinen and I've been entrepreneur from that moment. We are strictly local, Jyväskylä based boutique agency. Our main products are bespoke WordPress-websites and webstores.</p>
+
+                    <ul>
+                        <li><a href="https://www.dude.fi">Home page</a></li>
+                        <li><a href="mailto:moro@dude.fi">E-mail</a></li>
+                    </ul>
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+            <div class="item">
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+            <div class="item">
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+            <div class="item">
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+            <div class="item">
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+            <div class="item">
+
+                <p>Item</p>
+
+            </div><!--/.item-->
+
+        </div>
+
         <div class="footer-container">
 
             <footer class="wrapper">
-                <p>This page is 100% open source. <a href="#">View in GitHub.</a></p>
+                <p>Code with passion.</p>
             </footer>
 
         </div>
