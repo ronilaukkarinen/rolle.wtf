@@ -47,7 +47,7 @@
             <a href="http://www.rollemaa.org" class="overlay-link"><p>Visit</p></a>
                 <div class="item-wrapper">
 
-                    <h4><span class="fa fa-rss"></span>A personal blog: Rollemaa.org (in Finnish)</h4>
+                    <h4><span class="fa fa-rss"></span>A personal blog: Rollemaa.org</h4>
 
                     <p>Rollemaa.org (previously rolleweb.net) was my first weblog. Currently published over 1500 articles. Blogging couple of times per month, but used to blog almost daily.</p>
 
@@ -159,7 +159,7 @@
                 
                     <h4>More?</h4>
 
-                    <p>Oh, you bet! I'm registered in over 160 social networks, I have hundreds of projects and I'm practically all over the Internet. I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. Soon I get this all automated, latest tweet times etc. Coming soon...</p>
+                    <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet. I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. Soon I get this all automated, latest tweet times etc. Coming soon...</p>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
