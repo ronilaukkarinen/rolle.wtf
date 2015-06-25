@@ -98,7 +98,7 @@
 
                     <h4><span class="fa fa-medium"></span>Medium</h4>
 
-                    <p>I wrote my first blog post in Medium titled "My first article in Medium — Thoughts after writing over 10 years in 7 different blogs" in 8th of April, 2015. I this writer-reader-oriented site and its beautiful simplicity.</p>
+                    <p>I wrote my first blog post in Medium titled "My first article in Medium — Thoughts after writing over 10 years in 7 different blogs" in 8th of April, 2015. I love this writer-reader-oriented site and its beautiful simplicity.</p>
 
                     <div class="notes">
                         <p><span class="fa fa-flag"></span>Language: English only</p>
