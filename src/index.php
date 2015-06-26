@@ -64,7 +64,7 @@
 
                     <h4><span class="fa fa-twitter"></span>Twitter</h4>
 
-                    <p>I joined Twitter in 8th of January in 2008. Twitter has been my favourite social media channel every since.</p>
+                    <p>I joined Twitter in 8th of January in 2008. Twitter has been my favorite social media channel ever since.</p>
 
                     <div class="notes">
                         <p><span class="fa fa-flag"></span>Language: Mostly Finnish, sometimes English</p>
@@ -128,7 +128,7 @@
 
                     <h4><span class="fa fa-beer"></span> Beer</h4>
 
-                    <p>I've been tasting about a 1000 different beers since 2010. I currently have a Finnish beer blog and Untappd profile (a social media for beer enthusiasts).</p>
+                    <p>I've tasted over 1000 different beers since 2010. I currently have a Finnish beer blog and Untappd profile (a social media for beer enthusiasts).</p>
 
                     <ul>
                         <li><a href="http://www.huurteinen.fi"><span class="fa fa-rss"></span>Huurteinen.fi - A beer blog</a></li>
