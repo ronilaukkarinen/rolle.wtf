@@ -2,6 +2,8 @@
 
 Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Built with [Modern HTML5 Boilerplate](https://github.com/ronilaukkarinen/modern-html5-boilerplate).
 
+![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
+
 ### ToDo
 - [ ] Add Composer
 - [ ] Add latest tweet time
@@ -22,8 +24,6 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Old school Finnish social media section (IRC-galleria, Kuvake, etc.)
 - [ ] Art (Deviantart, Pinterest)
 - [ ] Other social medias like Path and Bebo
-
-![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
 
 ### Building blocks
 
