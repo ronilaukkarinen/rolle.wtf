@@ -4,3 +4,6 @@ node_modules/
 access.log
 error.log
 dist/todoist.php
+dandelion.yml
+dist/dandelion.yml
+.env
