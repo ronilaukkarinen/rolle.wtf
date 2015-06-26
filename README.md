@@ -2,6 +2,11 @@
 
 Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Built with [Modern HTML5 Boilerplate](https://github.com/ronilaukkarinen/modern-html5-boilerplate).
 
+### ToDo
+[ ] Add Composer
+[ ] Add latest tweet time
+[ ] Add latest blog post time RSS in time ago format
+
 ![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
 
 ### Building blocks
