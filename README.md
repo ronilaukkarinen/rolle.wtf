@@ -8,6 +8,20 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Add latest blog post time RSS in time ago format
 - [ ] Add DotENV
 - [ ] Add Todoist API for todo list statistics
+- [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
+- [ ] About.me section
+- [ ] Add more company links, Github etc.
+- [ ] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
+- [ ] Instant messaging section (IRC, Skype, Slack, etc.)
+- [ ] Health section (HeiaHeia, Endomondo)
+- [ ] Places section (Foursquare)
+- [ ] Add Codeivate and Wakatime to code section
+- [ ] Work section (LinkedIn, Behance, Dribbble, etc.)
+- [ ] Videos section (Youtube, Vine, Vimeo, etc.)
+- [ ] Bookmarks section (Delicious, Digg, etc.)
+- [ ] Old school Finnish social media section (IRC-galleria, Kuvake, etc.)
+- [ ] Art (Deviantart, Pinterest)
+- [ ] Other social medias like Path and Bebo
 
 ![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
 
