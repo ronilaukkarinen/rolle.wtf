@@ -12,7 +12,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Add Todoist API for todo list statistics
 - [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
 - [ ] About.me section
-- [ ] Add more company links, Github etc.
+- [x] Add more company links, Github etc.
 - [ ] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
 - [ ] Instant messaging section (IRC, Skype, Slack, etc.)
 - [ ] Health section (HeiaHeia, Endomondo)
