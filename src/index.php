@@ -129,6 +129,11 @@
                         <ul>
                             <li><a href="https://www.dude.fi"><span class="fa fa-home"></span>Company website</a></li>
                             <li><a href="mailto:moro@dude.fi"><span class="fa fa-envelope"></span>Inquiries</a></li>
+                            <li><a href="https://github.com/digitoimistodude"><span class="fa fa-github"></span>GitHub</a></li>
+                            <li><a href="https://www.facebook.com/digitoimistodude"><span class="fa fa-facebook"></span>Facebook page</a></li>
+                            <li><a href="http://www.linkedin.com/company/digitoimisto-dude-oy"><span class="fa fa-linkedin"></span>LinkedIn</a></li>
+                            <li><a href="https://plus.google.com/b/104415581795532131383/104415581795532131383"><span class="fa fa-google-plus"></span>Google+</a></li>
+                            <li><a href="https://www.youtube.com/channel/UC91UDU7HjbiZS9FN8tG7YlQ"><span class="fa fa-youtube"></span>Our Youtube-video</a></li>
                         </ul>
 
                     <div class="notes">
