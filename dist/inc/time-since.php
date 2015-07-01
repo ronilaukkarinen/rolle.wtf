@@ -11,7 +11,7 @@
     array(60 , 'minute'),
     );
 
-    $i = 0;
+    $iik = 0;
     $since = $newer_date - $older_date;
     for ($iik = 0, $j = count($chunks); $i < $j; $iik++)
         {

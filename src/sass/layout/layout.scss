@@ -224,6 +224,19 @@ body
 
         &.item-twitter {
             background: #55acee;
+
+            .item-header {
+                background-image: url(../images/twitter.jpg);            
+
+                ul, li {
+                    list-style: none;
+                    text-align: center;
+                    font-family: $headingfont;
+                    font-weight: bold; 
+                    margin: 0;
+                    padding: 0;                   
+                }
+            }
         }
 
         &.item-medium {

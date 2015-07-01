@@ -82,6 +82,14 @@
 
             <div class="item item-twitter">
             <a href="http://www.twitter.com/rolle" class="overlay-link"><p>Tweet</p></a>
+
+                <header class="item-header">
+                <div class="shade"></div>
+                
+                    <p class="twitter"></p>
+
+                </header>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-twitter"></span>Twitter</h4>
@@ -240,6 +248,7 @@
         <div class="footer-container">
 
             <footer class="wrapper">
+
                 <p>Code with passion. This page is 100% open source. <a href="https://github.com/ronilaukkarinen/rolle.wtf">View in <span class="fa fa-github"></span> Github</a>.</p>
             </footer>
 
@@ -247,8 +256,9 @@
 
     </div>
 
-        <script src="js/all.js"></script>
 
+        <script src="js/all.js"></script>
+        
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

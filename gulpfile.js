@@ -157,6 +157,7 @@ gulp.task('js', function() {
           'bower_components/jquery/dist/jquery.js',
           'bower_components/respond-minmax/src/respond.js',
           'bower_components/packery/dist/packery.pkgd.js',
+          jsSrc + '/jquery.tweet.js',
           jsSrc + '/scripts.js',
         ])
         .pipe(concat('all.js'))
