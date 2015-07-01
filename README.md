@@ -24,6 +24,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Old school Finnish social media section (IRC-galleria, Kuvake, etc.)
 - [ ] Art (Deviantart, Pinterest)
 - [ ] Other social medias like Path and Bebo
+- [ ] Add the legacy website from 1999
 
 ### Building blocks
 
