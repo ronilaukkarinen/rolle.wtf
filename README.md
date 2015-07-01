@@ -25,6 +25,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Art (Deviantart, Pinterest)
 - [ ] Other social medias like Path and Bebo
 - [ ] Add the legacy website from 1999
+- [ ] Add [hashtg.it](https://github.com/ronilaukkarinen/hashtg)
 
 ### Building blocks
 
