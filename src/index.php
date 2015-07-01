@@ -108,6 +108,27 @@
             </div><!--/.item-->
 
             <div class="item item-code">
+                <header class="item-header">
+                <div class="shade"></div>
+                
+                    <?php
+                        $url = "https://github.com/ronilaukkarinen.atom";
+                        $rss = simplexml_load_file($url);
+                    ?>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Last line of code <?php
+
+                                include('inc/time-since.php');
+                                echo aika(abs(strtotime($rss->updated . " GMT")), time());
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-code"></span>Code</h4>
