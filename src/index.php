@@ -96,11 +96,35 @@
             </div><!--/.item-->
 
             <div class="item item-company">
+
+                <header class="item-header">
+                <div class="shade"></div>
+                
+                    <?php
+                        $url = "https://www.dude.fi/feed/";
+                        $rss = simplexml_load_file($url);
+                    ?>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Blogged <?php
+
+                                include_once('inc/time-since.php');
+                                echo aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time());
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-flask"></span>A web design agency: Digitoimisto Dude Oy</h4>
 
                     <p>In 22th of May I founded my first company with my graphic-designer-friend Juha Laitinen and I've been entrepreneur from that moment. We are strictly local, Jyväskylä based boutique agency. Our main products are bespoke WordPress-websites and webstores.</p>
+
+                    <p>Over 100 successful projects done by 2015 (just under 2 years of service).</p>
 
                         <ul>
                             <li><a href="https://www.dude.fi"><span class="fa fa-home"></span>Company website</a></li>

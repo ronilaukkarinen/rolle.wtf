@@ -249,6 +249,11 @@ body
 
         &.item-company {
             background: #E95F4F;
+
+            .item-header {
+                background-image: url(../images/dude.jpg);
+            }
+
         }
 
         &.item-beer {
