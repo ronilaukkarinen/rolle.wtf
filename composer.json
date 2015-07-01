@@ -1,0 +1,21 @@
+{
+    "name": "ronilaukkarinen/rolle.wtf",
+    "type": "project",
+    "description": "A personal contact card website at rolle.wtf.",
+    "keywords": ["website", "project", "live"],
+    "homepage": "http://github.com/ronilaukkarinen/rolle.wtf",
+    "authors" : [
+        {
+            "name": "Roni Laukkarinen",
+            "email": "roni@dude.fi",
+            "homepage": "http://rolle.wtf"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "vlucas/phpdotenv": "^2.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}

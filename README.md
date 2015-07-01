@@ -5,7 +5,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 ![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
 
 ### ToDo
-- [ ] Add Composer
+- [x] Add Composer
 - [ ] Add latest tweet time
 - [ ] Add latest blog post time RSS in time ago format
 - [ ] Add DotENV
