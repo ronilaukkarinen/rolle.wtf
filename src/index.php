@@ -45,6 +45,28 @@
 
             <div class="item item-rollemaa grid-sizer">
             <a href="http://www.rollemaa.org" class="overlay-link"><p>Visit</p></a>
+
+                <header class="item-header">
+                <div class="shade"></div>
+                
+                    <?php
+                        $url = "http://www.rollemaa.org/feed/";
+                        $rss = simplexml_load_file($url);
+                    ?>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Latest blog post <?php
+
+                                include_once('inc/time-since.php');
+                                echo aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time());
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-rss"></span>A personal blog: Rollemaa.org</h4>
@@ -120,7 +142,6 @@
 
                             <p>Last line of code <?php
 
-                                include('inc/time-since.php');
                                 echo aika(abs(strtotime($rss->updated . " GMT")), time());
 
                             ?> ago.</p>

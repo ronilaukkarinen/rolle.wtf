@@ -7,7 +7,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 ### ToDo
 - [x] Add Composer
 - [ ] Add latest tweet time
-- [ ] Add latest blog post time RSS in time ago format
+- [x] Add latest blog post time RSS in time ago format
 - [ ] Add DotENV
 - [ ] Add Todoist API for todo list statistics
 - [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)

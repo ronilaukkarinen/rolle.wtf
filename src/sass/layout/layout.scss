@@ -213,6 +213,10 @@ body
         &.item-rollemaa {
             background: #A9BA8F;
 
+            .item-header {
+                background-image: url(../images/rollemaa.jpg);
+            }
+
             .overlay-link {
                 background: #547424;
             }
