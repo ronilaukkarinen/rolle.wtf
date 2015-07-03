@@ -134,7 +134,6 @@
 
                             <p>Blogged <?php
 
-                                include_once('inc/time-since.php');
                                 echo aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time());
 
                             ?> ago.</p>
