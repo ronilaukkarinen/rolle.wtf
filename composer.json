@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.3.9",
-        "vlucas/phpdotenv": "^2.0.1"
+        "vlucas/phpdotenv": "^2.0.1",
+        "cosenary/instagram":"*"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"

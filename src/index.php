@@ -255,13 +255,27 @@
             </div><!--/.item-->
 
             <div class="item item-photos">
+
+                <?php
+                 
+                /**
+                   * Instagram PHP API
+                   *
+                   * @link https://github.com/cosenary/Instagram-PHP-API
+                   * @author Christian Metz
+                   */
+                
+                  include 'inc/instagram/index.php';
+                  
+                ?>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-photo"></span> Photos</h4>
 
-                    <p>I have two cameras (Canon EOS 400D &amp; Nikon D40) and a flagship Android Phone. I've been photographing a long time, but only for fun and as a hobby.</p>
+                    <p>I have two cameras (Canon EOS 400D &amp; Nikon D40) and a flagship Android Phone Oneplus One. I've been photographing a long time, but only for fun and as a hobby.</p>
 
-                   <ul>
+                    <ul>
                         <li><a href="http://instagram.com/rolle_"><span class="fa fa-instagram"></span>Instagram</a></li>
                         <li><a href="https://www.flickr.com/photos/rolle-/"><span class="fa fa-flickr"></span>Flickr</li>
                         <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>    
