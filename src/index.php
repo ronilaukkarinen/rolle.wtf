@@ -147,7 +147,7 @@
 
                     <h4><span class="fa fa-flask"></span>A web design agency: Digitoimisto Dude Oy</h4>
 
-                    <p>In 22th of May I founded my first company with my graphic-designer-friend Juha Laitinen and I've been entrepreneur from that moment. We are strictly local, Jyväskylä based boutique agency. Our main products are bespoke WordPress-websites and webstores.</p>
+                    <p>In 22th of May 2013 I founded my first company with my graphic-designer-friend Juha Laitinen and I've been entrepreneur from that moment. We are strictly local, Jyväskylä based boutique agency. Our main products are bespoke WordPress-websites and webstores.</p>
 
                     <p>Over 100 successful projects done by 2015 (just under 2 years of service).</p>
 
