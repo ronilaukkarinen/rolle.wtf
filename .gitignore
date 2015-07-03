@@ -9,3 +9,4 @@ dandelion.yml
 dist/dandelion.yml
 .env
 dist/inc/twitter/index.php
+cache*
