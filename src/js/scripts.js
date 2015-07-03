@@ -22,7 +22,7 @@ $(window).load(function() {
 		auto_join_text_reply: "",
 		auto_join_text_url: "",
 		loading_text: "<span class=\"tweet_text\">Loading...</span>",
-		template: "Tweeted {time}"
+		template: "Last tweet {time}."
 	});
 
 });
