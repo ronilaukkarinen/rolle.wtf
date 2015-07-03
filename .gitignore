@@ -10,3 +10,4 @@ dist/dandelion.yml
 .env
 dist/inc/twitter/index.php
 cache*
+dist/inc/twitter/*.json
