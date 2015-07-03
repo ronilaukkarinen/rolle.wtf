@@ -8,7 +8,7 @@
  * @since 4.04.2014
  */
 
-if(file_exists($_SERVER['HOME'].'/rolle.wtf')) :
+if(file_exists($_SERVER['HOME'].'/rolle.wtf/vendor')) :
 	include($_SERVER['HOME'].'/rolle.wtf/vendor/autoload.php');
 else :
 	include($_SERVER['HOME'].'/rolle.wtf.deploy/vendor/autoload.php');
