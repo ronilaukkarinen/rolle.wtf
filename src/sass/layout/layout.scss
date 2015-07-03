@@ -242,6 +242,10 @@ body
         &.item-medium {
             background: #333332;
 
+            .item-header {
+                background-image: url(../images/medium.jpg);
+            }
+
             .overlay-link {
                 background: #151515;
             }

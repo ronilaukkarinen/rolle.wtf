@@ -1,19 +1,19 @@
 <?php
-    $url = $_SERVER["SCRIPT_NAME"];
-    $break = Explode('/', $url);
-    $path = realpath(dirname(__FILE__));
-    $file = $break[count($break) - 1];
-    $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
-    $cachetime = 120;
+    // $url = $_SERVER["SCRIPT_NAME"];
+    // $break = Explode('/', $url);
+    // $path = realpath(dirname(__FILE__));
+    // $file = $break[count($break) - 1];
+    // $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
+    // $cachetime = 120;
     
-    date_default_timezone_set('Europe/Helsinki');
-    setlocale(LC_ALL, 'fi_FI.UTF-8');
+    // date_default_timezone_set('Europe/Helsinki');
+    // setlocale(LC_ALL, 'fi_FI.UTF-8');
     
-    if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
-        echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
-        include($cachefile);
-    else :
-    ob_start();
+    // if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
+    //     echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
+    //     include($cachefile);
+    // else :
+    // ob_start();
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -169,6 +169,27 @@
 
             <div class="item item-medium">
             <a href="https://medium.com/@rolle" class="overlay-link"><p>Read</p></a>
+
+                <header class="item-header">
+                <div class="shade"></div>
+                
+                    <?php
+                        $url = "https://medium.com/feed/@rolle";
+                        $rss = simplexml_load_file($url);
+                    ?>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Last article written <?php
+
+                                echo aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time());
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-medium"></span>Medium</h4>
@@ -291,11 +312,11 @@
 
 <?php
 
-     $cached = fopen($cachefile, 'w');
-     fwrite($cached, ob_get_contents());
-     fclose($cached);
-     ob_end_flush();
+//      $cached = fopen($cachefile, 'w');
+//      fwrite($cached, ob_get_contents());
+//      fclose($cached);
+//      ob_end_flush();
     
-endif;
+// endif;
 
 ?>
