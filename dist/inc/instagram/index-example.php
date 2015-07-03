@@ -8,7 +8,11 @@
  * @since 4.04.2014
  */
 
-include($_SERVER['DOCUMENT_ROOT'].'/../vendor/autoload.php');
+if(file_exists($_SERVER['HOME'].'/rolle.wtf')) :
+	include($_SERVER['HOME'].'/rolle.wtf/vendor/autoload.php');
+else :
+	include($_SERVER['HOME'].'/rolle.wtf.deploy/vendor/autoload.php');
+endif;
 use MetzWeb\Instagram\Instagram;
 $instagram = new Instagram('YOUR_API_KEY');
 
