@@ -240,7 +240,7 @@
             </div><!--/.item-->
 
             <div class="item item-beer">
-            
+
                     <?php include('inc/untappd/index.php'); ?>
 
                 <div class="item-wrapper">
@@ -292,7 +292,13 @@
                 
                     <h4>More?</h4>
 
-                    <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet. I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. Soon I get this all automated, latest tweet times etc. Coming soon...</p>
+                    <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet.</p>
+
+                    <p>I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. Soon I get this all automated, latest tweet times etc. Coming soon...</p>
+
+                    <ul class="links">
+                        <li><a href="https://github.com/ronilaukkarinen/rolle.wtf/commits?author=ronilaukkarinen"><span class="fa fa-github"></span>See the progress in GitHub</a></li>
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -304,6 +310,24 @@
             <footer class="wrapper">
 
                 <p>Code with passion. This page is 100% open source. <a href="https://github.com/ronilaukkarinen/rolle.wtf">View in <span class="fa fa-github"></span> Github</a>.</p>
+
+                <p>
+                    <?php
+                        $url = "https://github.com/ronilaukkarinen/rolle.wtf/commits/master.atom";
+                        $rss = simplexml_load_file($url);
+                    ?>
+                            
+                        <?php if($rss) : ?>
+
+                            <p><a class="last-commit" href="<?php echo $rss->entry->link['href']; ?>">Updated <?php
+
+                                echo aika(abs(strtotime($rss->entry->updated . " GMT")), time());
+
+                            ?> ago: <i><?php echo $rss->entry->title; ?></i>.</a></p>
+
+                        <?php endif; ?>                
+                </p>
+
             </footer>
 
         </div>
