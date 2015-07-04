@@ -301,7 +301,7 @@
                             
                         <?php if($rss) : ?>
 
-                            <p>Watched last time <?php
+                            <p>On the couch <?php
 
                                 echo aika(abs(strtotime($rss->updated . " GMT")), time());
 
@@ -318,7 +318,10 @@
                     <p>I'm an escapist and usually want to relax with a good movie or tv show. I have created a habit to review every film I have watched. I've written over 2000 short movie reviews since 2006.</p>
 
                     <ul class="links">
-                        <li><a href="http://letterboxd.com/rolle/"><img src="images/letterboxd.svg" alt="Letterboxd" />Letterboxd</a></li>   
+                        <li><a href="http://letterboxd.com/rolle/"><img src="images/letterboxd.svg" alt="Letterboxd" />Letterboxd</a></li>
+                        <li><a href="http://www.imdb.com/mymovies/list?l=27761618"><img class="imdb" src="images/imdb.svg" alt="IMDb" />IMDb</a></li>
+                        <li><a href="http://trakt.tv/users/rolle"><img src="images/trakt.svg" alt="Trakt" />Trakt</a></li>
+                        <li><a href="http://rollemaa.org/leffat/"><span class="fa fa-rss"></span>My movie blog</a></li>
                     </ul>      
 
                 </div><!--/.item-wrapper-->
