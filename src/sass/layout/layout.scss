@@ -100,6 +100,9 @@ body
 
         background: #ABB7B7;
         @include span(1/4);
+        @media(max-width: 1150px) {
+            @include span(1/3);
+        }
     
         @media(max-width: $container-ipad) {
             @include stack();
