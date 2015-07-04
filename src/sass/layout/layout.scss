@@ -110,7 +110,7 @@ body
         overflow: hidden;
         position: relative; 
     
-        ul {
+        ul.links {
             margin-bottom: 0;
         }
 
@@ -121,6 +121,9 @@ body
         }
 
         .notes {
+
+            margin-top: 20px;
+            
             p {
                 @include type-scale('normal');
                 margin-bottom: 0;

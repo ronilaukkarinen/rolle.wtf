@@ -150,7 +150,7 @@
 
                     <p>Over 100 successful projects done by 2015 (just under 2 years of service).</p>
 
-                        <ul>
+                        <ul class="links">
                             <li><a href="https://www.dude.fi"><span class="fa fa-home"></span>Company website</a></li>
                             <li><a href="mailto:moro@dude.fi"><span class="fa fa-envelope"></span>Inquiries</a></li>
                             <li><a href="https://github.com/digitoimistodude"><span class="fa fa-github"></span>GitHub</a></li>
@@ -230,7 +230,7 @@
 
                     <p>As I am a full time Front End / Semi stack developer, I produce lots of lines of code. I use mainly git and mercurial for version control.</p>
 
-                    <ul>
+                    <ul class="links">
                         <li><a href="https://github.com/ronilaukkarinen"><span class="fa fa-github"></span>My personal projects</a></li>
                         <li><a href="https://github.com/digitoimistodude"><span class="fa fa-github"></span>My professional projects</a></li>
                         <li><a href="https://bitbucket.org/ronilaukkarinen"><span class="fa fa-bitbucket"></span>Bitbucket</a></li>
@@ -246,7 +246,7 @@
 
                     <p>I've tasted over 1000 different beers since 2010. I currently have a Finnish beer blog and Untappd profile (a social media for beer enthusiasts).</p>
 
-                    <ul>
+                    <ul class="links">
                         <li><a href="http://www.huurteinen.fi"><span class="fa fa-rss"></span>Huurteinen.fi - A beer blog</a></li>
                         <li><a href="https://untappd.com/user/rolle"><img src="images/untappd.svg" alt="Untappd" />Untappd beer check-ins</a></li>
                     </ul>               
@@ -275,7 +275,7 @@
 
                     <p>I have two cameras (Canon EOS 400D &amp; Nikon D40) and a flagship Android Phone Oneplus One. I've been photographing a long time, but only for fun and as a hobby.</p>
 
-                    <ul>
+                    <ul class="links">
                         <li><a href="http://instagram.com/rolle_"><span class="fa fa-instagram"></span>Instagram</a></li>
                         <li><a href="https://www.flickr.com/photos/rolle-/"><span class="fa fa-flickr"></span>Flickr</li>
                         <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>    
