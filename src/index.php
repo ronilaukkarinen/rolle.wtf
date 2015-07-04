@@ -370,6 +370,30 @@
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
+            <div class="item item-music">
+
+                    <?php
+
+                        include('inc/lastfm/index.php');
+
+                    ?>
+
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-music"></span> Music</h4>
+
+                    <p>I love music, who doesn't? The difference is, I also love the geeky side of it. Like other things, I like to keep record of my listening habits and for that Last.fm is perfect. It's been already a decade since I registered as a last.fm user in 2005.</p>
+                    
+                    <p>My music taste is quite elastic and versatile, so please check out my Last.fm profile below to get the whole picture. I also have other profiles and you could follow me in Spotify to get my playlists and so on.</p>
+
+                    <ul class="links">
+                        <li><a href="http://www.last.fm/user/rolle-"><span class="fa fa-lastfm"></span>Last.fm</a></li>  
+                    </ul>               
+
+                </div><!--/.item-wrapper-->
+
+            </div><!--/.item-->
+
             <div class="item item-more">
                 <div class="item-wrapper">
                 

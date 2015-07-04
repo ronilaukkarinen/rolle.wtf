@@ -13,4 +13,5 @@ dist/inc/twitter/*.json
 dist/inc/instagram/index.php
 dist/inc/untappd/index.php
 dist/inc/todoist/index.php
+dist/inc/lastfm/index.php
 cache*
