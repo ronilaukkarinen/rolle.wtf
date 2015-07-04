@@ -240,6 +240,8 @@
                         <li><a href="https://github.com/ronilaukkarinen"><span class="fa fa-github"></span>My personal projects</a></li>
                         <li><a href="https://github.com/digitoimistodude"><span class="fa fa-github"></span>My professional projects</a></li>
                         <li><a href="https://bitbucket.org/ronilaukkarinen"><span class="fa fa-bitbucket"></span>Bitbucket</a></li>
+                        <li><a href="http://www.codeivate.com/users/rolle"><span class="fa fa-code"></span>Codeivate</a></li>
+                        <li><a href="https://wakatime.com/@rolle"><img src="images/wakatime.svg" alt="WakaTime" />WakaTime</a></li>
                     </ul>                
 
                 </div><!--/.item-wrapper-->

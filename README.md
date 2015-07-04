@@ -13,11 +13,11 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
 - [ ] About.me section
 - [x] Add more company links, Github etc.
-- [ ] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
+- [x] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
 - [ ] Instant messaging section (IRC, Skype, Slack, etc.)
 - [ ] Health section (HeiaHeia, Endomondo)
 - [ ] Places section (Foursquare)
-- [ ] Add Codeivate and Wakatime to code section
+- [x] Add Codeivate and Wakatime to code section
 - [ ] Work section (LinkedIn, Behance, Dribbble, etc.)
 - [ ] Videos section (Youtube, Vine, Vimeo, etc.)
 - [ ] Bookmarks section (Delicious, Digg, etc.)

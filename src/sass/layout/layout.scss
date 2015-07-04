@@ -110,6 +110,15 @@ body
         overflow: hidden;
         position: relative; 
     
+        img {
+            width: 16px;
+            height: auto;
+            margin-right: 6px;
+            position: relative;
+            left: -2px;
+            top: -2px;
+        }
+
         ul.links {
             margin-bottom: 0;
         }
