@@ -9,7 +9,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [x] Add latest tweet time
 - [x] Add latest blog post time RSS in time ago format
 - [x] Add DotENV
-- [ ] Add Todoist API for todo list statistics
+- [x] Add Todoist API for todo list statistics
 - [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
 - [ ] About.me section
 - [x] Add more company links, Github etc.

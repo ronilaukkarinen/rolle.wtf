@@ -8,7 +8,9 @@
     
     date_default_timezone_set('Europe/Helsinki');
     setlocale(LC_ALL, 'fi_FI.UTF-8');
-    
+    ini_set('display_errors', 0);
+    error_reporting(0);
+
     if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
         echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
         include($cachefile);
@@ -335,6 +337,17 @@
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
+
+            <div class="item item-tasks">
+
+                    <?php
+
+                        include('inc/todoist/index.php');
+
+                    ?>
+
+            </div><!--/.item-->
+
             <div class="item item-more">
                 <div class="item-wrapper">
                 
@@ -343,6 +356,8 @@
                     <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet.</p>
 
                     <p>I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. More stuff definitely coming soon...</p>
+
+                    <p>By the way, data collected on this site are displayed in real time by using APIs and RSS. Well, you can check the code yourself.</p>
 
                     <ul class="links">
                         <li><a href="https://github.com/ronilaukkarinen/rolle.wtf/commits?author=ronilaukkarinen"><span class="fa fa-github"></span>See the progress in GitHub</a></li>

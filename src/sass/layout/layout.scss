@@ -121,6 +121,10 @@ body
 
         ul.links {
             margin-bottom: 0;
+
+            a {
+                font-weight: bold;
+            }
         }
 
         .fa {
@@ -329,6 +333,10 @@ body
                 top: -1px;
                 position: relative;
             }
+        }
+
+        &.item-tasks {
+            background: #DD4B39;
         }
 
     }
