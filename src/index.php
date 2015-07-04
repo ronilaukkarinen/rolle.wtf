@@ -302,7 +302,6 @@
                     $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
                     $rss = simplexml_load_file($url);
                     $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
-
                 ?>
 
                 <header class="item-header" style="background-image: url('<?php echo $image; ?>');">

@@ -26,10 +26,11 @@
 				    		foreach ($taskdata->uncompleted as $task) :
 				    			
 				    			// echo $task->content;
-				    			if(!empty($timeadded)) :
-									$timeadded = " ".aika(abs(strtotime($task->date_added . " GMT")), time())." ";
+				    			$timeadded = " ".aika(abs(strtotime($task->date_added . " GMT")), time())." ";
+				    			if(empty($timeadded)) :
+				    				$timeadded = " a moment ";
 								else :
-									$timeadded = " a moment ";
+									$timeadded = " ".aika(abs(strtotime($task->date_added . " GMT")), time())." ";
 								endif;
 									echo $timeadded;
 
