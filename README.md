@@ -8,7 +8,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [x] Add Composer
 - [x] Add latest tweet time
 - [x] Add latest blog post time RSS in time ago format
-- [ ] Add DotENV
+- [x] Add DotENV
 - [ ] Add Todoist API for todo list statistics
 - [ ] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
 - [ ] About.me section
@@ -26,6 +26,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Other social medias like Path and Bebo
 - [ ] Add the legacy website from 1999
 - [ ] Add [hashtg.it](https://github.com/ronilaukkarinen/hashtg)
+- [ ] Add gadgets section (links to XDA, openSUSE, etc.)
 
 ### Building blocks
 
