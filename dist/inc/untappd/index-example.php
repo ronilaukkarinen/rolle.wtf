@@ -27,7 +27,7 @@ function relativeTime($a) {
         //if less then day
         if($d < $day) return floor($d / $hour) . " hours";
         //if more then day, but less then 2 days
-        if($d > $day && $d < $day * 2) return "yesterday";
+        if($d > $day && $d < $day * 2) return "1 day";
         //if less then year
         if($d < $day * 365) return floor($d / $day) . " days ago";
         //else return more than a year
