@@ -110,6 +110,10 @@ body
         overflow: hidden;
         position: relative; 
     
+        ul {
+            margin-bottom: 0;
+        }
+
         .fa {
             margin-right: 8px;
             position: relative;
