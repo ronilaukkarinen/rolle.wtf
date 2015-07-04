@@ -346,6 +346,30 @@
 
             </div><!--/.item-->
 
+            <div class="item item-facebook">
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-facebook"></span>Facebook</h4>
+
+                    <p>Meh. I don't use Facebook that much any more. It's way too crowded and annoying. I first thought I won't add the Facebook information on this page, because I don't like it that much.</p>
+
+                    <p>I have to use it to keep in touch with people, but I don't like the way Facebook filters the updates - the more popular you are, the more you show, the more you pay, the more visibility you get. Anyway, I have a profile and some Facebook pages. Links below.</p>
+
+                    <ul class="links">
+                        <li><a href="http://www.facebook.com/rollefb"><span class="fa fa-facebook-square"></span>My Facebook profile</a></li>
+                        <li><a href="http://www.facebook.com/huurteinen"><span class="fa fa-facebook-square"></span>Huurteinen, a beer blog</a></li>
+                        <li><a href="http://www.facebook.com/digitoimistodude"><span class="fa fa-facebook-square"></span>Digitoimisto Dude Oy, my company</a></li>
+                        <li><a href="http://www.facebook.com/rollemaa"><span class="fa fa-facebook-square"></span>Rollemaa, my personal blog</a></li>
+                        <li><a href="http://www.facebook.com/rollenleffat"><span class="fa fa-facebook-square"></span>My movie blog</a></li>
+                        <li><a href="http://www.facebook.com/ericeric.fi"><span class="fa fa-facebook-square"></span>Eric &amp; co. - art</a></li>
+                        <li><a href="http://www.facebook.com/problemsolvin"><span class="fa fa-facebook-square"></span>Problemsolv.in, IT-blog</a></li>
+                        <li><a href="https://www.facebook.com/pages/IRC-kanava-kuurosokeille/108039709259135"><span class="fa fa-facebook-square"></span>IRC channel for Finnish deaf and blind</a></li>
+                        <li><a href="https://www.facebook.com/pulinairc"><span class="fa fa-facebook-square"></span>Pulina IRC channel</a></li>
+                    </ul>
+
+                </div><!--/.item-wrapper-->
+            </div><!--/.item-->
+
             <div class="item item-more">
                 <div class="item-wrapper">
                 

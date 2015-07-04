@@ -28,7 +28,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Add [hashtg.it](https://github.com/ronilaukkarinen/hashtg)
 - [ ] Add gadgets section (links to XDA, openSUSE, etc.)
 - [ ] Add last active in IRC
-- [ ] Add Facebook
+- [x] Add Facebook
 
 ### Building blocks
 
