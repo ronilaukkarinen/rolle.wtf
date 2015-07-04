@@ -323,7 +323,7 @@
 
                 <div class="item-wrapper">
 
-                    <h4><span class="fa fa-film"></span>Movies</h4>
+                    <h4><span class="fa fa-film"></span>Movies &amp; TV</h4>
 
                     <p>I'm an escapist and usually want to relax with a good movie or tv show. I have created a habit to review every film I have watched. I've written over 2000 short movie reviews since 2006.</p>
 
