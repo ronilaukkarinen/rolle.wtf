@@ -23,7 +23,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Rolle &mdash; A front end developer, web designer &mdash; Roni Laukkarinen</title>
         <meta name="description" content="Roni Laukkarinen is a Finnish web developer, Twitter freak, craft beer enthusiast. Find out more.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
