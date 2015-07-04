@@ -240,6 +240,9 @@
             </div><!--/.item-->
 
             <div class="item item-beer">
+            
+                    <?php include('inc/untappd/index.php'); ?>
+
                 <div class="item-wrapper">
 
                     <h4><span class="fa fa-beer"></span> Beer</h4>
