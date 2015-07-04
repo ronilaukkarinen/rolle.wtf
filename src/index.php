@@ -388,12 +388,17 @@
 
                     <h4><span class="fa fa-music"></span> Music</h4>
 
-                    <p>I love music, who doesn't? The difference is, I also love the geeky side of it. Like other things, I like to keep record of my listening habits and for that Last.fm is perfect. It's been already a decade since I registered as a last.fm user in 2005.</p>
+                    <p>I love music, who doesn't? The difference is, I also love the geeky side of it. Like with other things, I like to keep record of my listening habits and for that Last.fm is perfect. It's been already a decade since I registered as a last.fm user in 2005.</p>
                     
                     <p>My music taste is quite elastic and versatile, so please check out my Last.fm profile below to get the whole picture. I also have other profiles and you could follow me in Spotify to get my playlists and so on.</p>
 
                     <ul class="links">
-                        <li><a href="http://www.last.fm/user/rolle-"><span class="fa fa-lastfm"></span>Last.fm</a></li>  
+                        <li><a href="http://www.last.fm/user/rolle-"><span class="fa fa-lastfm"></span>Last.fm</a></li>
+                        <li><a href="http://bandcamp.com/roni"><img src="images/bandcamp.svg" alt="Bandcamp" />Bandcamp</a></li>
+                        <li><a href="http://open.spotify.com/user/rolle-"><span class="fa fa-spotify"></span>Spotify</a></li>
+                        <li><a href="http://www.deezer.com/profile/20268967"><img src="images/deezer.svg" alt="Deezer" />Deezer</a></li>
+                        <li><a href="https://soundcloud.com/rolle-6"><span class="fa fa-soundcloud"></span>Soundcloud</a></li>
+                        <li><a href="http://www.mikseri.net/user/roll"><span class="fa fa-headphones"></span>Mikseri</a></li>
                     </ul>               
 
                 </div><!--/.item-wrapper-->
@@ -436,6 +441,7 @@
 
                             <p><a class="last-commit" href="<?php echo $rss->entry->link['href']; ?>">Updated <?php
                             
+                                $updatetime = aika(abs(strtotime($rss->entry->updated)), time());
                                 if(!empty($updatetime)) :
                                     $updatetime = " ". aika(abs(strtotime($rss->entry->updated)), time()+60) . " ";
                                 else :

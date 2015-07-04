@@ -5,7 +5,7 @@
 	// ini_set('display_errors', 0);
 	// error_reporting(0);
 
-	$json = file_get_contents('https://api.todoist.com/API/query?token=YOUR_API_KEY&queries=["viewall"]');
+	$json = file_get_contents('https://api.todoist.com/API/query?token=YOU_API_KEY&queries=["viewall"]');
 	$obj = json_decode($json);
 
 ?>             
@@ -26,7 +26,7 @@
 				    		foreach ($taskdata->uncompleted as $task) :
 				    			
 				    			// echo $task->content;
-				    			$timeadded = " ".aika(abs(strtotime($task->date_added . " GMT")), time())." ";
+				    			$timeadded = aika(abs(strtotime($task->date_added . " GMT")), time());
 				    			if(empty($timeadded)) :
 				    				$timeadded = " a moment ";
 								else :

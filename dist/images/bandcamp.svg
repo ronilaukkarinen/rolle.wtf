@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="512.000000pt"
+   height="512.000000pt"
+   viewBox="0 0 512.000000 512.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bandcamp.svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.36875"
+     inkscape:cx="320"
+     inkscape:cy="320"
+     inkscape:window-x="2322"
+     inkscape:window-y="360"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+Created by potrace 1.12, written by Peter Selinger 2001-2015
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g6"
+     style="fill:#ffffff">
+    <path
+       d="M1518 3957 c-32 -61 -125 -242 -209 -402 -205 -394 -387 -745 -704 -1355 -147 -283 -289 -555 -315 -605 -26 -49 -100 -192 -164 -318 l-118 -227 1770 0 1770 0 447 862 c247 475 465 895 485 933 85 160 619 1191 625 1208 7 16 -81 17 -1761 17 l-1769 0 -57 -113z"
+       id="path8"
+       style="fill:#ffffff" />
+  </g>
+</svg>
