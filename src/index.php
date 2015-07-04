@@ -216,7 +216,13 @@
 
                             <p>Last line of code <?php
 
-                                echo aika(abs(strtotime($rss->updated . " GMT")), time());
+                                if(!empty($codetime)) :
+                                    $codetime = " ". aika(abs(strtotime($rss->updated . " GMT")), time()). " ";
+                                else :
+                                    $codetime = " a moment ";
+                                endif;
+
+                                echo $codetime;
 
                             ?> ago.</p>
 
@@ -360,12 +366,18 @@
                         <?php if($rss) : ?>
 
                             <p><a class="last-commit" href="<?php echo $rss->entry->link['href']; ?>">Updated <?php
+                            
+                                if(!empty($updatetime)) :
+                                    $updatetime = " ". aika(abs(strtotime($rss->entry->updated)), time()+60) . " ";
+                                else :
+                                    $updatetime = " a moment ";
+                                endif;
 
-                                echo aika(abs(strtotime($rss->entry->updated)), time()+60);
+                                echo $updatetime;
 
                             ?> ago: <i><?php echo $rss->entry->title; ?></i>.</a></p>
 
-                        <?php endif; ?>                
+                        <?php endif; ?>
                 </p>
 
             </footer>
