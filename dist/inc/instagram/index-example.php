@@ -27,7 +27,7 @@ foreach ($media->data as $data) : ?>
 <header class="item-header" style="background-image: url('<?php echo $data->images->low_resolution->url; ?>');">
 	<div class="shade"></div>
 
-	<p>Last Instagram photo taken <?php echo aika(abs(strtotime(date('d.m.Y H:i', $data->caption->created_time) . " GMT")), time()); ?> ago.</p>
+	<p>Last Instagram photo taken <?php echo aika(abs(strtotime(date('d.m.Y H:i', $data->caption->created_time))), time()+60); ?> ago.</p>
 
 </header>
 
