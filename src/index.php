@@ -1,19 +1,19 @@
 <?php
-    // $url = $_SERVER["SCRIPT_NAME"];
-    // $break = Explode('/', $url);
-    // $path = realpath(dirname(__FILE__));
-    // $file = $break[count($break) - 1];
-    // $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
-    // $cachetime = 120;
+    $url = $_SERVER["SCRIPT_NAME"];
+    $break = Explode('/', $url);
+    $path = realpath(dirname(__FILE__));
+    $file = $break[count($break) - 1];
+    $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
+    $cachetime = 120;
     
-    // date_default_timezone_set('Europe/Helsinki');
-    // setlocale(LC_ALL, 'fi_FI.UTF-8');
+    date_default_timezone_set('Europe/Helsinki');
+    setlocale(LC_ALL, 'fi_FI.UTF-8');
     
-    // if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
-    //     echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
-    //     include($cachefile);
-    // else :
-    // ob_start();
+    if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
+        echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
+        include($cachefile);
+    else :
+    ob_start();
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -294,7 +294,7 @@
 
                     <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet.</p>
 
-                    <p>I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. Soon I get this all automated, latest tweet times etc. Coming soon...</p>
+                    <p>I will update this page every time I get something new going on and it's on my ToDo-list to code great things here. More stuff definitely coming soon...</p>
 
                     <ul class="links">
                         <li><a href="https://github.com/ronilaukkarinen/rolle.wtf/commits?author=ronilaukkarinen"><span class="fa fa-github"></span>See the progress in GitHub</a></li>
@@ -353,11 +353,11 @@
 
 <?php
 
-//      $cached = fopen($cachefile, 'w');
-//      fwrite($cached, ob_get_contents());
-//      fclose($cached);
-//      ob_end_flush();
+     $cached = fopen($cachefile, 'w');
+     fwrite($cached, ob_get_contents());
+     fclose($cached);
+     ob_end_flush();
     
-// endif;
+endif;
 
 ?>
