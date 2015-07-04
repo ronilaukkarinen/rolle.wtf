@@ -311,7 +311,13 @@
 
                             <p>On the couch <?php
 
-                                echo aika(abs(strtotime($rss->updated . " GMT")), time());
+                                $onthecouch = " ".aika(abs(strtotime($rss->updated . " GMT")), time())." ";
+                                if(empty($onthecouch)) :
+                                    $onthecouch = " a moment ";
+                                else :
+                                    $onthecouch = " ".aika(abs(strtotime($rss->updated . " GMT")), time())." ";
+                                endif;
+                                    echo $onthecouch;
 
                             ?> ago.</p>
 
