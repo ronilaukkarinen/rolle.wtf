@@ -11,12 +11,12 @@
     array(60 , 'minute'),
     );
 
-    $iik = 0;
+    $i = 0;
     $since = $newer_date - $older_date;
-    for ($iik = 0, $j = count($chunks); $i < $j; $iik++)
+    for ($i = 0, $j = count($chunks); $i < $j; $i++)
         {
-        $seconds = $chunks[$iik][0];
-        $name = $chunks[$iik][1];
+        $seconds = $chunks[$i][0];
+        $name = $chunks[$i][1];
         if (($count = floor($since / $seconds)) != 0)
             {
             break;

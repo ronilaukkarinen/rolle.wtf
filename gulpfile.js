@@ -90,7 +90,7 @@ gulp.task('browserSync', function() {
 
     browserSync.init(files, {
         proxy: "rolle.wtf.dev",
-        browser: "Google Chrome Canary",
+        browser: "Google Chrome",
         notify: false
     });
 });

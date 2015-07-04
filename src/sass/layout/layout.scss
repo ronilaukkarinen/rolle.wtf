@@ -293,6 +293,19 @@ body
             }
         }
 
+        &.item-movies {
+            background: #2A3640;
+
+            img {
+                width: 16px;
+                height: auto;
+                margin-right: 6px;
+                position: relative;
+                left: -2px;
+                top: -2px;
+            }
+        }
+
         &.item-photos {
             background: #3f729b;
 
@@ -335,6 +348,11 @@ body
                 &:hover {
                     opacity: 1;
                 }
+            }
+
+            i {
+                font-weight: normal;
+                font-style: normal;
             }
         }
     }

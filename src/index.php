@@ -287,6 +287,43 @@
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
+            <div class="item item-movies">
+
+                <?php
+                    $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
+                    $rss = simplexml_load_file($url);
+                    $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
+
+                ?>
+
+                <header class="item-header" style="background-image: url('<?php echo $image; ?>');">
+                <div class="shade"></div>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Watched last time <?php
+
+                                echo aika(abs(strtotime($rss->updated . " GMT")), time());
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-film"></span>Movies</h4>
+
+                    <p>I'm an escapist and usually want to relax with a good movie or tv show. I have created a habit to review every film I have watched. I've written over 2000 short movie reviews since 2006.</p>
+
+                    <ul class="links">
+                        <li><a href="http://letterboxd.com/rolle/"><img src="images/letterboxd.svg" alt="Letterboxd" />Letterboxd</a></li>   
+                    </ul>      
+
+                </div><!--/.item-wrapper-->
+            </div><!--/.item-->
+
             <div class="item item-more">
                 <div class="item-wrapper">
                 
