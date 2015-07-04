@@ -361,7 +361,7 @@
 
                             <p><a class="last-commit" href="<?php echo $rss->entry->link['href']; ?>">Updated <?php
 
-                                echo aika(abs(strtotime($rss->entry->updated . " GMT")), time());
+                                echo aika(abs(strtotime($rss->entry->updated)), time()+60);
 
                             ?> ago: <i><?php echo $rss->entry->title; ?></i>.</a></p>
 
