@@ -217,6 +217,8 @@
 
                             <p>Last line of code <?php
 
+                                $codetime = aika(abs(strtotime($rss->updated . " GMT")), time());
+                                
                                 if(!empty($codetime)) :
                                     $codetime = " ". aika(abs(strtotime($rss->updated . " GMT")), time()). " ";
                                 else :
@@ -298,11 +300,11 @@
 
             <div class="item item-movies">
 
-                <?php
-                    $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
-                    $rss = simplexml_load_file($url);
-                    $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
-                ?>
+<?php
+    $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
+    $rss = simplexml_load_file($url);
+    $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
+?>
 
                 <header class="item-header" style="background-image: url('<?php echo $image; ?>');">
                 <div class="shade"></div>
