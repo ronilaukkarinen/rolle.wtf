@@ -61,7 +61,35 @@
 
         <div class="items">
 
-            <div class="item item-rollemaa grid-sizer">
+            <div class="item item-contact grid-sizer">
+
+                <header class="item-header">
+                <div class="shade"></div>
+
+                    <?php include('inc/last-active-irc.php'); ?>              
+
+                </header>
+
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-paper-plane"></span>Contact</h4>
+
+                    <p>Getting contact information should be the easiest thing on the website. I'm everywhere, so contacting me is not a problem. You can get in touch best by tweeting me or sending an e-mail (yes, even better than calling me directly).</p>
+
+                    <p>I'm one of those old-schoolers who use IRC. I'm using nick rolle in Quakenet and rolle_ in IRCnet. Remember to check /whois. If you are wondering what's that geeky chat on the header of this box, that's #pulina at Quakenet.</p>
+
+                    <ul class="links">
+                        <li><a href="http://www.pulina.fi"><span class="fa fa-slack"></span>Finnish IRC-channel #pulina</a></li>
+                        <li><a href="skype:roni.laukkarinen"><span class="fa fa-skype"></span>Skype</a></li>
+                        <li><a href="mailto:roni@dude.fi"><span class="fa fa-envelope"></span>E-mail</a></li>
+                        <li><a href="telegram:+358451271611"><img src="images/telegram.svg" alt="Telegram" />Telegram</a></li>
+                        <li><a href="whatsapp:+358451271611"><img src="images/whatsapp.svg" alt="WhatsApp" />WhatsApp</a></li>
+                    </ul>
+    
+                </div><!--/.item-wrapper-->
+            </div><!--/.item-->
+
+            <div class="item item-rollemaa">
             <a href="http://www.rollemaa.org" class="overlay-link"><p>Visit</p></a>
 
                 <header class="item-header">
@@ -77,7 +105,7 @@
                             <p>Latest blog post <?php
 
                                 include_once('inc/time-since.php');
-                                echo aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time());
+                                echo " ".aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time())." ";
 
                             ?> ago.</p>
 
@@ -135,7 +163,7 @@
 
                             <p>Blogged <?php
 
-                                echo aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time());
+                                echo " ".aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time())." ";
 
                             ?> ago.</p>
 
@@ -183,7 +211,7 @@
 
                             <p>Last article written <?php
 
-                                echo aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time());
+                                echo " ".aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time())." ";
 
                             ?> ago.</p>
 

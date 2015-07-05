@@ -158,6 +158,7 @@ body
             left: 0;
             background: #333333;
             opacity: 0.4;
+            z-index: 1;
         }
 
         .item-header {
@@ -172,6 +173,7 @@ body
                 text-align: center;
                 font-family: $headingfont;
                 font-weight: bold;
+                z-index: 2;
             }
 
         }
@@ -235,6 +237,27 @@ body
         p
         {
             color: #ffffff;
+        }
+
+        &.item-contact {
+            background: #3F434C;
+
+            .item-header {
+
+                iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;    
+                }
+            }
+
+            .shade {
+                opacity: 0.5;
+            }
+
         }
 
         &.item-rollemaa {
