@@ -30,6 +30,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [x] Add last active in IRC
 - [x] Add Facebook
 - [ ] Add dreams and sleep data
+- [ ] Add Problemsolv.in IT-blog
 
 ### Building blocks
 
