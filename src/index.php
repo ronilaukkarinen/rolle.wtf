@@ -51,7 +51,7 @@
                     <header>
                         <img src="images/ig-avatar.png" alt="Roni Laukkarinen" class="avatar" />
                         <h1>Roni Laukkarinen</h1>
-                        <p>This is <strong>rolle.wtf</strong> &mdash; my contact card online. People who know me call me Rolle. That's me. I've been active in the Internet since the 90s, so this page is a gateway to all those places and profiles I've been building up during the years.</p>
+                        <p>This is <strong>rolle.wtf</strong> &mdash; people call me Rolle and this is my contact card online. I've been active in the Internet since the late 90s and in some point lost track of all the places and profiles I've been building up during the years. This page is for getting all the information in the same place.</p>
                     </header>
                 </section>
 

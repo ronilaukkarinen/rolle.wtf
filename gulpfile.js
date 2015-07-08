@@ -82,7 +82,6 @@ BROWSERSYNC
 gulp.task('browserSync', function() {
 
     var files = [
-      cssDest + '/**/*.{css}',
       jsDest + '/**/*.js',
       imgDest + '/*.{png,jpg,jpeg,gif}',
       markupSrc
@@ -222,30 +221,4 @@ gulp.task('watch', ['setWatch', 'browserSync'], function() {
   gulp.watch(imgSrc, ['images']);
   gulp.watch(markupSrc, ['minify-html']).on('change', browserSync.reload);
   gulp.watch(jsSrc + '/**/*.js', ['js']).on('change', browserSync.reload);
-});
-
-/* 
-BUILD
-=====
-*/
-
-gulp.task('build', function(cb) {
-  runSequence('styles', 'js', 'minify-html', 'images', cb);
-});
-
-/* 
-DEFAULT
-=======
-*/
-
-gulp.task('default', function(cb) {
-    runSequence(
-    'images',
-    'styles',
-    'js',
-    'minify-html',
-    'browserSync',
-    'watch',
-    cb
-    );
 });
