@@ -79,11 +79,11 @@
                     <p>I'm one of those old-schoolers who use IRC. I'm using nick rolle in Quakenet and rolle_ in IRCnet. Remember to check /whois. If you are wondering what's that geeky chat on the header of this box, that's #pulina at Quakenet.</p>
 
                     <ul class="links">
-                        <li><a href="http://www.pulina.fi"><span class="fa fa-slack"></span>Finnish IRC-channel #pulina</a></li>
                         <li><a href="skype:roni.laukkarinen"><span class="fa fa-skype"></span>Skype</a></li>
                         <li><a href="mailto:roni@dude.fi"><span class="fa fa-envelope"></span>E-mail</a></li>
                         <li><a href="telegram:+358451271611"><img src="images/telegram.svg" alt="Telegram" />Telegram</a></li>
                         <li><a href="whatsapp:+358451271611"><img src="images/whatsapp.svg" alt="WhatsApp" />WhatsApp</a></li>
+                        <li><a href="http://www.pulina.fi"><span class="fa fa-slack"></span>Internet Relay Chat</a></li>
                     </ul>
     
                 </div><!--/.item-wrapper-->
