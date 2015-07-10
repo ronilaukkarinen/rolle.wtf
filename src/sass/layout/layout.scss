@@ -336,6 +336,19 @@ body
             }
         }
 
+        &.item-problemsolvin {
+            background: #444444;   
+            
+            .item-header {
+                background-image: url(../images/problemsolvin.jpg);
+            }
+
+            .overlay-link {
+                background: #222222;
+            }
+
+        }
+
         &.item-movies {
             background: #2A3640;
 
