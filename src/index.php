@@ -337,6 +337,25 @@
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
+            <div class="item item-aboutme">
+            <a href="https://about.me/rolle" class="overlay-link"><p>Visit</p></a>
+
+                <header class="item-header">
+                <div class="shade"></div>
+                            
+                    <p>No longer maintained.</p>
+
+                </header>
+
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-user"></span> About.me</h4>
+
+                    <p>I signed up in About.me in 2009. It was meant to be like this page today - to collect all the links and social medias in the same place. I had a dozen of social media profiles already in 2009. However, I soon noticed the service is lacking features, so stopped using it. But there it is, feel free to visit. The picture is from 2009.</p>
+
+                </div><!--/.item-wrapper-->
+            </div><!--/.item-->
+
             <div class="item item-photos">
 
                 <?php

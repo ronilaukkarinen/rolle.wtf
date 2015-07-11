@@ -11,7 +11,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [x] Add DotENV
 - [x] Add Todoist API for todo list statistics
 - [x] Music section (Last.fm, Bandcamp, Spotify, Songkick, Mikseri...)
-- [ ] About.me section
+- [x] About.me section
 - [x] Add more company links, Github etc.
 - [x] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
 - [x] Instant messaging section (IRC, Skype, Slack, etc.)

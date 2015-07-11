@@ -378,6 +378,18 @@ body
             }
         }
 
+        &.item-aboutme {
+            background: #004A73;
+
+            .overlay-link {
+                background: #1F3136;
+            }
+
+            .item-header {
+                background-image: url(../images/aboutme.png);
+            }
+        }
+
         &.item-tasks {
             background: #DD4B39;
         }
