@@ -79,18 +79,18 @@ BROWSERSYNC
 ===========
 */
 
-gulp.task('browserSync', function() {
+gulp.task('browsersync', function() {
 
     var files = [
       jsDest + '/**/*.js',
       imgDest + '/*.{png,jpg,jpeg,gif}',
-      markupSrc
+      jsSrc + '/**/*.js'
     ];
 
     browserSync.init(files, {
         proxy: "rolle.wtf.dev",
         browser: "Google Chrome",
-        notify: false
+        notify: true
     });
 });
 
@@ -101,9 +101,8 @@ STYLES
 */
 
 gulp.task('styles', function() {
-  gulp.src(sassFile)
 
-  .pipe(sourcemaps.init())
+  gulp.src(sassFile)
 
   .pipe(sass({
     outputStyle: 'compressed'
@@ -113,7 +112,6 @@ gulp.task('styles', function() {
   .pipe(prefix('last 3 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4')) //adds browser prefixes (eg. -webkit, -moz, etc.)
   .pipe(minifycss({keepBreaks:false,keepSpecialComments:0,}))
   .pipe(pixrem())
-  .pipe(sourcemaps.write('./'))
   .pipe(gulp.dest(cssDest))
   .pipe(browserSync.stream());
 
@@ -212,13 +210,13 @@ Notes:
      that change within the directory it's serving from
 */
 
-gulp.task('setWatch', function() {
-  global.isWatching = true;
-});
+// Run the JS task followed by a reload
+gulp.task('js-watch', ['js'], browserSync.reload);
 
-gulp.task('watch', ['setWatch', 'browserSync'], function() {
+gulp.task('watch', ['browsersync'], function() {
+
   gulp.watch(sassSrc, ['styles']);
   gulp.watch(imgSrc, ['images']);
   gulp.watch(markupSrc, ['minify-html']).on('change', browserSync.reload);
-  gulp.watch(jsSrc + '/**/*.js', ['js']).on('change', browserSync.reload);
+  gulp.watch(jsSrc, ['js-watch']);
 });

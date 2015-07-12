@@ -26,3 +26,10 @@ $(window).load(function() {
 	});
 
 });
+
+$(document).ready(function(){
+
+	// Disable tawk.to default styles
+    $("#tawkchat-minified-iframe-element").removeAttr('style');
+
+});

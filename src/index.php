@@ -551,9 +551,6 @@
 
     </div>
 
-
-        <script src="js/all.js"></script>
-        
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -562,8 +559,21 @@
         
           ga('create', 'UA-64522118-1', 'auto');
           ga('send', 'pageview');
-        
         </script>
+
+        <script>
+            var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/55a2466a84d307454cffa140/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+        </script>
+
+        <script src="js/all.js"></script>
        
     </body>
 </html>
