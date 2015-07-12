@@ -102,7 +102,7 @@
                             
                         <?php if($rss) : ?>
 
-                            <p>Latest blog post <?php
+                            <p>Last update <?php
 
                                 include_once('inc/time-since.php');
                                 echo " ".aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time())." ";
@@ -161,7 +161,7 @@
                             
                         <?php if($rss) : ?>
 
-                            <p>Blogged <?php
+                            <p>Last update <?php
 
                                 echo " ".aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time())." ";
 
@@ -309,7 +309,7 @@
                             
                         <?php if($rss) : ?>
 
-                            <p>Latest blog post <?php
+                            <p>Last update <?php
 
                                 include_once('inc/time-since.php');
                                 echo " ".aika(abs(strtotime($rss->channel->lastBuildDate . " GMT")), time())." ";
