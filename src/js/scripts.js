@@ -29,7 +29,11 @@ $(window).load(function() {
 
 $(document).ready(function(){
 
-	// Disable tawk.to default styles
-    $("#tawkchat-minified-iframe-element").removeAttr('style');
+	$("#open-chat").animatedModal({
+		modalTarget:'chat',
+        animatedIn:'zoomIn',
+        animatedOut:'bounceOut',
+        color:'#3F434C'
+	});
 
 });

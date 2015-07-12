@@ -1,0 +1,47 @@
+.button,
+a.button,
+a.button:link,
+a.button:visited {
+	min-width: 200px;
+	max-width: 250px;
+	display: inline-block;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 33px;
+	padding-right: 33px;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	transition: 0.12s;
+	font-weight: bold;
+	letter-spacing: 0;
+
+	color: $textcolor;
+
+	&:hover, &:focus, &:active {
+		color: darken(#ffffff,15%);
+		border-color: $textcolor;
+	}
+
+	&.button-border {
+		border-width: 3px 3px 3px 3px;
+		border-style: solid;
+		border-color: $textcolor;
+		background-color: transparent;
+
+		&:hover {
+			color: #ffffff;
+			border-color: $textcolor;
+			background: $textcolor;
+		}
+
+	}
+
+}

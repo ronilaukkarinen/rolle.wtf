@@ -52,6 +52,21 @@
                         <img src="images/ig-avatar.png" alt="Roni Laukkarinen" class="avatar" />
                         <h1>Roni Laukkarinen</h1>
                         <p>This is <strong>rolle.wtf</strong> &mdash; people call me Rolle and this is my contact card online. I've been active in the Internet since the late 90s and in some point lost track of all the places and profiles I've been building up during the years. This page is for getting all the information in the same place.</p>
+
+                        <p><a href="#chat" id="open-chat" title="Starts a chat" class="button button-border">Say hi now!</a></p>
+
+                        <div id="chat">
+  
+                            <div class="close-chat closebtn" id="closebt-container"> 
+                                <img class="closebt" src="images/closebt.svg">
+                            </div>
+                                
+                            <div class="modal-content">
+                                <div id="tawk_55a2466a84d307454cffa140"></div>
+                            </div>
+
+                        </div>
+
                     </header>
                 </section>
 
@@ -388,11 +403,11 @@
 
             <div class="item item-movies">
 
-<?php
-    $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
-    $rss = simplexml_load_file($url);
-    $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
-?>
+                <?php
+                    $url = "http://trakt.tv/users/rolle/history.atom?slurm=addddddb526608d7639d3b07e176f2ea";
+                    $rss = simplexml_load_file($url);
+                    $image = $rss->entry->children($namespaces['media'])->thumbnail->attributes()->url;
+                ?>
 
                 <header class="item-header" style="background-image: url('<?php echo $image; ?>');">
                 <div class="shade"></div>
@@ -562,15 +577,14 @@
         </script>
 
         <script>
-            var $_Tawk_API={},$_Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/55a2466a84d307454cffa140/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
+          var $_Tawk_API={embedded:'tawk_55a2466a84d307454cffa140'},$_Tawk_LoadStart=new Date();
+          (function(){
+          var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+          s1.async=true;
+          s1.src='https://embed.tawk.to/55a2466a84d307454cffa140/19q21aeg1';
+          s1.charset='UTF-8';
+          s1.setAttribute('crossorigin','*');
+          s0.parentNode.insertBefore(s1,s0);})();
         </script>
 
         <script src="js/all.js"></script>

@@ -10,6 +10,7 @@
         "jeet": "*",
         "sanitize-css": "*",
         "jeet": "*",
-        "packery": "*"
+        "packery": "*",
+        "animate.css": "*"
     }
 }
