@@ -44,6 +44,8 @@ else {
                   <?php $nptime = aika($trackArray[0], time());
                     if(empty($nptime)) :
                       $nptime = " a moment ";
+                    elseif($nptime == "0 minutes" || $nptime == " 0 minutes ") :
+                      $nptime = " a moment ";
                     else :
                       $nptime = " ".aika($trackArray[0], time())." ";
                     endif;
