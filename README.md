@@ -32,7 +32,6 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [ ] Add dreams and sleep data
 - [x] Add Problemsolv.in IT-blog
 - [ ] Add sysadmin section and home server stats
-- [ ] Simplify description: Who am I and what I do
 
 ### Building blocks
 
