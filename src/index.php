@@ -51,7 +51,7 @@
                     <header>
                         <img src="images/ig-avatar.png" alt="Roni Laukkarinen" class="avatar" />
                         <h1>Roni Laukkarinen</h1>
-                        <p>I make websites. <strong>rolle.wtf</strong> is just one of them. People call me Rolle and this is my contact card online. I've been active in the Internet since the late 90s and in some point lost track of all the places and profiles I've been building up during the years. Hoping to get back on track with this page.</p>
+                        <p>I make websites &mdash; <strong>rolle.wtf</strong> is just one of them. People call me Rolle and this is my contact card online. I've been active in the Internet since the late 90s and in some point lost track of all the places and profiles I've been building up during the years. Hoping to get back on track with this page.</p>
 
                         <p><a href="#chat" id="open-chat" title="Starts a chat" class="button button-border">Say hi now!</a></p>
 
