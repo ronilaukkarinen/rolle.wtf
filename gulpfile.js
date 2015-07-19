@@ -23,7 +23,6 @@ var minifyhtml  = require('gulp-htmlmin');
 var runSequence = require('run-sequence');
 var exec        = require('child_process').exec;
 
-
 /* 
 
 ERROR HANDLING
@@ -116,13 +115,11 @@ gulp.task('styles', function() {
 
   });
 
-
 /* 
 
 IMAGES
 ======
 */
-
 
 gulp.task('images', function() {
   var dest = imgDest;
@@ -134,7 +131,6 @@ gulp.task('images', function() {
     .pipe(gulp.dest(imgDest));
 
 });
-
 
 /* 
 
