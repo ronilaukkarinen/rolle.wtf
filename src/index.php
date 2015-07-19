@@ -345,9 +345,7 @@
 
                     <p>I think problemsolv.in was my fourth blog. I'm an analytic problem solver and every time I get something solved, I usually write the solution down to my massive note file where I'll find it again if I forget about it next time having the same problem.</p>
 
-                    <p>Problemsolv.in was born, because instead of writing those solutions down just for myself, I could help others by blogging about them. Well, I don't always have the time and by 2015 the design of the site has come to the point I'm not in the mood for blogging because I don't like the old design and code any more.</p>
-
-                    <p>We'll see about the redesign in some other time, but in this blog I currently blog rather rarely to be honest.</p>
+                    <p>Problemsolv.in was born, because instead of writing those solutions down just for myself, I could help others by blogging about them. Website redesigned in 20th of July, 2015.</p>
 
                     <div class="notes">
                         <p><span class="fa fa-flag"></span>Language: English</p>
