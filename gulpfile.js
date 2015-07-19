@@ -19,7 +19,6 @@ var concat      = require('gulp-concat');
 var util        = require('gulp-util');
 var header      = require('gulp-header');
 var pixrem      = require('gulp-pixrem');
-var pagespeed   = require('psi');
 var minifyhtml  = require('gulp-htmlmin');
 var runSequence = require('run-sequence');
 var exec        = require('child_process').exec;
@@ -82,9 +81,9 @@ BROWSERSYNC
 gulp.task('browsersync', function() {
 
     var files = [
-      jsDest + '/**/*.js',
       imgDest + '/*.{png,jpg,jpeg,gif}',
-      jsSrc + '/**/*.js'
+      jsSrc + '/**/*.js',
+      markupSrc
     ];
 
     browserSync.init(files, {
@@ -184,22 +183,6 @@ gulp.task('minify-html', function() {
     .pipe(gulp.dest(markupDest))
 });
 
-/*
-
-PAGESPEED
-=====
-
-Notes:
-   - This runs Google PageSpeed Insights just like here http://developers.google.com/speed/pagespeed/insights/
-   - You can use Google Developer API key if you have one, see: http://goo.gl/RkN0vE
-
-*/
-
-gulp.task('pagespeed', pagespeed.bind(null, {
-  url: 'http://yoursite.com',
-  strategy: 'mobile'
-}));
-
 
 /*
 
@@ -218,6 +201,6 @@ gulp.task('watch', ['browsersync'], function() {
 
   gulp.watch(sassSrc, ['styles']);
   gulp.watch(imgSrc, ['images']);
-  gulp.watch(markupSrc, ['minify-html']).on('change', browserSync.reload);
-  gulp.watch(jsSrc, ['js-watch']);
+  gulp.watch(markupSrc, ['minify-html']);
+  gulp.watch(jsSrc + '/**/*.js', ['js-watch']);
 });
