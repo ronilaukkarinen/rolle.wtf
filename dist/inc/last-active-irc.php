@@ -8,6 +8,12 @@
 
      $lastactive = file_get_contents('http://www.peikko.us/lastactive.log');
 
-        $lastactivetime = "<p>Last active ". aika(abs($lastactive-280), time()) . " ago.</p>";
+     	$lastactivetime = aika(abs($lastactive-280), time());
+
+     	if($lastactivetime == "0 minutes") :
+     		$lastactivetime = "a moment";
+     	endif;
+
+        $lastactivetime = "<p>Last active ". $lastactivetime . " ago.</p>";
 
      echo $lastactivetime;
