@@ -512,6 +512,50 @@
 
             </div><!--/.item-->
 
+
+           <div class="item item-health">
+
+                <?php
+                    $url = "https://www.heiaheia.com/users/56971082245/feed";
+                    $rss = simplexml_load_file($url);
+                ?>
+
+                <header class="item-header">
+                <div class="shade"></div>
+                            
+                        <?php if($rss) : ?>
+
+                            <p>Last workout <?php
+
+                                $lastworkout = " ".aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time())." ";
+                                if(empty($onthecouch)) :
+                                    $lastworkout = " a moment ";
+                                else :
+                                    $lastworkout = " ".aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time())." ";
+                                endif;
+                                    echo $lastworkout;
+
+                            ?> ago.</p>
+
+                        <?php endif; ?>
+
+                </header>
+
+                <div class="item-wrapper">
+
+                    <h4><span class="fa fa-heartbeat"></span>Health</h4>
+
+                    <p>Well, I'm a full time nerd, so I'm not very healthy person, obviously. I don't excercise, but I use bicycle in the summer.</p>
+
+                    <ul class="links">
+                        <li><a href="https://www.endomondo.com/profile/2012723"><img src="images/endomondo.svg" alt="Endomondo" />Endomondo</a></li>
+                        <li><a href="http://www.heia.me/rolle"><img src="images/heiaheia.svg" alt="HeiaHeia" />HeiaHeia</a></li>
+                    </ul>
+
+                </div><!--/.item-wrapper-->
+            </div><!--/.item-->
+
+
             <div class="item item-more">
                 <div class="item-wrapper">
                 

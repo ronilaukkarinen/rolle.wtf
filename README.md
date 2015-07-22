@@ -15,7 +15,7 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 - [x] Add more company links, Github etc.
 - [x] Movies & TV section (IMDb, Letterboxd, Movli, Foundd, Trakt, Animewatcher etc.)
 - [x] Instant messaging section (IRC, Skype, Slack, etc.)
-- [ ] Health section (HeiaHeia, Endomondo)
+- [x] Health section (HeiaHeia, Endomondo)
 - [ ] Places section (Foursquare)
 - [x] Add Codeivate and Wakatime to code section
 - [ ] Work section (LinkedIn, Behance, Dribbble, etc.)

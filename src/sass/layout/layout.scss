@@ -415,6 +415,15 @@ body
             background: #d51007;
         }
 
+        &.item-health {
+            background: #558FCC;
+
+            .item-header {
+                background-image: url(../images/health.jpg);
+            }
+
+        }
+
     }
 
 }
