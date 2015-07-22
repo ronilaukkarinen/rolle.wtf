@@ -549,7 +549,7 @@
 
                     <ul class="links">
                         <li><a href="https://www.endomondo.com/profile/2012723"><img src="images/endomondo.svg" alt="Endomondo" />Endomondo</a></li>
-                        <li><a href="http://www.heia.me/rolle"><img src="images/heiaheia.svg" alt="HeiaHeia" />HeiaHeia</a></li>
+                        <li><a href="http://heia.me/rolle"><img src="images/heiaheia.svg" alt="HeiaHeia" />HeiaHeia</a></li>
                     </ul>
 
                 </div><!--/.item-wrapper-->
