@@ -57,19 +57,7 @@
                         <h1>Roni Laukkarinen</h1>
                         <p>I make websites &mdash; among other things. People call me Rolle and <strong>rolle.wtf</strong> is my contact card online. I've been active in the Internet since the late 90s and in some point lost track of all the places and profiles I've been building up during the years. Hoping to get back on track with this page.</p>
 
-                        <p><a href="#chat" id="open-chat" title="Starts a chat" class="button button-border">Say hi now!</a></p>
-
-                        <div id="chat">
-  
-                            <div class="close-chat closebtn" id="closebt-container"> 
-                                <img class="closebt" src="images/closebt.svg">
-                            </div>
-                                
-                            <div class="modal-content">
-                                <div id="tawk_55a2466a84d307454cffa140"></div>
-                            </div>
-
-                        </div>
+                        <p><a href="mailto:roni@dude.fi?subject=Hi there!" title="Send a message" class="button button-border">Say hi!</a></p>
 
                     </header>
                 </section>
@@ -620,17 +608,6 @@
         
           ga('create', 'UA-64522118-1', 'auto');
           ga('send', 'pageview');
-        </script>
-
-        <script>
-          var $_Tawk_API={embedded:'tawk_55a2466a84d307454cffa140'},$_Tawk_LoadStart=new Date();
-          (function(){
-          var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-          s1.async=true;
-          s1.src='https://embed.tawk.to/55a2466a84d307454cffa140/19q21aeg1';
-          s1.charset='UTF-8';
-          s1.setAttribute('crossorigin','*');
-          s0.parentNode.insertBefore(s1,s0);})();
         </script>
 
         <script src="js/all.js"></script>
