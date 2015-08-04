@@ -504,7 +504,7 @@
            <div class="item item-health">
 
                 <?php
-                    $url = "https://www.heiaheia.com/users/56971082245/feed";
+                    $url = "http://endo2atom.conoroneill.com/2012723";
                     $rss = simplexml_load_file($url);
                 ?>
 
@@ -515,16 +515,16 @@
 
                             <p>Last workout <?php
 
-                                $lastworkout = " ".aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time())." ";
-                                if(empty($onthecouch)) :
+                                $lastworkout = " ".aika(abs(strtotime($rss->entry->updated . " GMT")), time())." ";
+                                if(empty($lastworkout)) :
                                     $lastworkout = " a moment ";
                                 else :
-                                    $lastworkout = " ".aika(abs(strtotime($rss->channel->item->pubDate . " GMT")), time())." ";
+                                    $lastworkout = " ".aika(abs(strtotime($rss->entry->updated . " GMT")), time())." ";
                                 endif;
                                     echo $lastworkout;
 
                             ?> ago.</p>
-
+                            
                         <?php endif; ?>
 
                 </header>
