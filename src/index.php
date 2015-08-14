@@ -343,7 +343,6 @@
             </div><!--/.item-->
 
             <div class="item item-aboutme">
-            <a href="https://about.me/rolle" class="overlay-link"><p>Visit</p></a>
 
                 <header class="item-header">
                 <div class="shade"></div>
@@ -354,9 +353,15 @@
 
                 <div class="item-wrapper">
 
-                    <h4><span class="fa fa-user"></span> About.me</h4>
+                    <h4><span class="fa fa-user"></span> Legacy services</h4>
 
                     <p>I signed up in About.me in 2009. It was meant to be like this page today - to collect all the links and social medias in the same place. I had a dozen of social media profiles already in 2009. However, I soon noticed the service is lacking features, so stopped using it. But there it is, feel free to visit. The picture is from 2009.</p>
+
+                    <p>Below I'm listing also other services where I'm not active any more.</p>
+
+                    <ul class="links">
+                        <li><a href="http://about.me/rolle"><img src="images/aboutme.svg" alt="About.me" />About.me</li>
+                    </ul>    
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -385,7 +390,7 @@
                     <ul class="links">
                         <li><a href="http://instagram.com/rolle_"><span class="fa fa-instagram"></span>Instagram</a></li>
                         <li><a href="https://www.flickr.com/photos/rolle-/"><span class="fa fa-flickr"></span>Flickr</li>
-                        <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>    
+                        <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>  
                     </ul>               
 
                 </div><!--/.item-wrapper-->
