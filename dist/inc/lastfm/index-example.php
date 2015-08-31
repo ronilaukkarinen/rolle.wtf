@@ -16,7 +16,7 @@ endif;
 $secondsBeforeUpdate = 180;
 $numberOfSongs = 1;
 $socketTimeout = 3;
-$emptyCache = 'Not currently available.';
+$emptyCache = '';
 
   $recentlyPlayedSongs = @file_get_contents("http://ws.audioscrobbler.com/1.0/user/$lastfmUsername/recenttracks.txt");
   $handle = fopen($lastfmCache, "w");
