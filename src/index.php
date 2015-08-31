@@ -4,7 +4,7 @@
     $path = realpath(dirname(__FILE__));
     $file = $break[count($break) - 1];
     $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
-    $cachetime = 600;
+    $cachetime = 1800;
     
     date_default_timezone_set('Europe/Helsinki');
     setlocale(LC_ALL, 'fi_FI.UTF-8');
