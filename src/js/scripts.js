@@ -31,9 +31,9 @@ $(document).ready(function(){
 		// Packery
 		var $container = $('.items').packery({
 		   itemSelector: '.item',
-		   gutter: 0
+		   gutter: -1
 		});
 
-	}, 1000);
-	
+	}, 100);
+
 });
