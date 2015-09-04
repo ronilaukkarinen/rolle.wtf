@@ -1,15 +1,5 @@
 $(window).load(function() {
 
-	setTimeout(function() {
-
-		// Packery
-		var $container = $('.items').packery({
-		   itemSelector: '.item',
-		   gutter: 0
-		});
-
-	}, 50);
-
 	$(".twitter").tweet({
 		modpath: '/inc/twitter/',
 		username: "rolle",
@@ -36,4 +26,14 @@ $(document).ready(function(){
         color:'#3F434C'
 	});
 
+	setTimeout(function() {
+
+		// Packery
+		var $container = $('.items').packery({
+		   itemSelector: '.item',
+		   gutter: 0
+		});
+
+	}, 1000);
+	
 });
