@@ -31,7 +31,7 @@ $(document).ready(function(){
 		// Packery
 		var $container = $('.items').packery({
 		   itemSelector: '.item',
-		   gutter: -1
+		   gutter: 0
 		});
 
 	}, 100);

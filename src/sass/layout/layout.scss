@@ -43,6 +43,11 @@
 # Layout start >>>
 --------------------------------------------------------------*/
 
+// Packery margin fix
+html { 
+    overflow-y: scroll; 
+}
+
 body
 {
     color: $textcolor;
