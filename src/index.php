@@ -1,21 +1,12 @@
-<!DOCTYPE html><?php
-    $url = $_SERVER["SCRIPT_NAME"];
-    $break = Explode('/', $url);
-    $path = realpath(dirname(__FILE__));
-    $file = $break[count($break) - 1];
-    $cachefile = $path.'/cached-'.substr_replace($file ,"",-4).'.html';
-    $cachetime = 1800;
-    
-    date_default_timezone_set('Europe/Helsinki');
-    setlocale(LC_ALL, 'fi_FI.UTF-8');
-    ini_set('display_errors', 0);
-    error_reporting(0);
-
-    if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) :
-        echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
-        include($cachefile);
-    else :
-    ob_start();
+<?php
+$cachefile = 'cached-index.html';
+$cachetime = 1800;
+if (file_exists($cachefile) && time() - $cachetime < filemtime($cachefile)) {
+    include($cachefile);
+    echo "<!-- Amazing hand crafted super cache, generated ".date('H:i', filemtime($cachefile))." -->";
+    exit;
+}
+ob_start();
 ?>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -619,12 +610,8 @@
 </html>
 
 <?php
-
-     $cached = fopen($cachefile, 'w');
-     fwrite($cached, ob_get_contents());
-     fclose($cached);
-     ob_end_flush();
-    
-endif;
-
+$fp = fopen($cachefile, 'w');
+fwrite($fp, ob_get_contents());
+fclose($fp);
+ob_end_flush();
 ?>
