@@ -6,11 +6,12 @@
   // error_reporting(0);
 
 $lastfmUsername = "rolle-";
+$apikey = "xxxxxx";
 
 if(file_exists('/home/dudeo1/rolle.wtf/inc/lastfm')) :
   $lastfmCache = '/home/dudeo1/rolle.wtf/inc/lastfm/lastfm.recent.cache';
 else :
-  $lastfmCache = $_SERVER['HOME'].'/rolle.wtf/dist/inc/lastfm/lastfm.recent.cache';
+  $lastfmCache = "lastfm.recent.cache";
 endif;
 
 $secondsBeforeUpdate = 180;
@@ -18,7 +19,18 @@ $numberOfSongs = 1;
 $socketTimeout = 3;
 $emptyCache = '';
 
-  $recentlyPlayedSongs = @file_get_contents("http://ws.audioscrobbler.com/1.0/user/$lastfmUsername/recenttracks.txt");
+  $getrecentlyplayed = simplexml_load_file('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user='.$lastfmUsername.'&api_key='.$apikey.'');
+  $row = '';
+  foreach($getrecentlyplayed->recenttracks->track as $recenttrack) {
+    $timeplayed = $recenttrack->date['uts'];
+    if( empty($timeplayed) ) : 
+      $timeplayed = time();
+    endif;
+    $row .= $timeplayed.",".$recenttrack->artist." - ".$recenttrack->name."\n";
+  }
+
+  $recentlyPlayedSongs = $row;
+  
   $handle = fopen($lastfmCache, "w");
   fwrite($handle, $recentlyPlayedSongs);
   fclose($handle);
@@ -26,14 +38,17 @@ $emptyCache = '';
 $cacheSize = filesize($lastfmCache);
 if($cacheSize < 5) echo $emptyCache;
 else {
+
   $recentlyPlayedSongs = file_get_contents($lastfmCache);
-  // $recentlyPlayedSongs = utf8_decode($recentlyPlayedSongs); // UTF8 h8
 
   $track = explode("\n", $recentlyPlayedSongs);
+
   for ($i = 0; $i < $numberOfSongs; $i++) {
+
     $trackArray = explode(",", $track[$i]);
-    $entry = explode(" – ", $trackArray[1]);
-    $artistxml = simplexml_load_file('http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist='.urlencode($entry[0]).'&api_key=YOUR_API_KEY&limit=1');
+    $entry = explode(" - ", $trackArray[1]);
+
+    $artistxml = simplexml_load_file('http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist='.urlencode($entry[0]).'&api_key='.$apikey.'&limit=1');
 
     foreach($artistxml->artist->image as $img) {
       if($img['size'] == "mega") { ?>
