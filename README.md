@@ -2,7 +2,7 @@
 
 Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Built with [Modern HTML5 Boilerplate](https://github.com/ronilaukkarinen/modern-html5-boilerplate).
 
-![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
+![](https://dl.dropboxusercontent.com/u/18447700/rolle.wtf.png "Screenshot")
 
 ### Cache
 
