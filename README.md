@@ -4,6 +4,21 @@ Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Bu
 
 ![](https://raw.githubusercontent.com/ronilaukkarinen/rolle.wtf/master/screenshot.png "Screenshot")
 
+### Cache
+
+I have a simple PHP-cache which reloads every 10 minutes because of the social media feeds. Crontab follows:
+
+````
+*/6 * * * * /var/www/rolle.wtf/bin/flushrollewtfcache
+````
+
+`flushrollewtfcache` -executable:
+
+````
+#!/bin/bash
+cd /var/www/rolle.wtf/public_html && wget -q http://rolle.wtf
+````
+
 ### ToDo
 - [x] Add Composer
 - [x] Add latest tweet time
