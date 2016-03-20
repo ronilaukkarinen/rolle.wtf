@@ -1,5 +1,7 @@
 # rolle.wtf
 
+**Please note:** I redesigned the site in March, 2016. Check out [rolle.wtf-v2](https://github.com/ronilaukkarinen/rolle.wtf-v2).
+
 Website at [rolle.wtf](http://rolle.wtf). A site where it all comes together. Built with [Modern HTML5 Boilerplate](https://github.com/ronilaukkarinen/modern-html5-boilerplate).
 
 ![](https://dl.dropboxusercontent.com/u/18447700/rolle.wtf.png "Screenshot")

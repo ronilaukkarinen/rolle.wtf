@@ -40,7 +40,7 @@ ob_start();
 
                 <section class="main-section">
                     <header>
-                            
+
                         <a href="https://instagram.com/p/4FR3j8m0Zc/" title="Photo taken 18th of June, 2015.">
                             <img src="images/ig-avatar.png" alt="Roni Laukkarinen" class="avatar" />
                         </a>
@@ -62,7 +62,7 @@ ob_start();
                 <header class="item-header">
                 <div class="shade"></div>
 
-                    <?php include('inc/last-active-irc.php'); ?>              
+                    <?php include('inc/last-active-irc.php'); ?>
 
                 </header>
 
@@ -81,7 +81,7 @@ ob_start();
                         <li><a href="whatsapp:+358451271611"><img src="images/whatsapp.svg" alt="WhatsApp" />WhatsApp</a></li>
                         <li><a href="http://www.pulina.fi"><span class="fa fa-slack"></span>Internet Relay Chat</a></li>
                     </ul>
-    
+
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
@@ -90,12 +90,12 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <?php
                         $url = "http://www.rollemaa.org/feed/";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last update <?php
@@ -118,7 +118,7 @@ ob_start();
                     <div class="notes">
                         <p><span class="fa fa-flag"></span>Language: Finnish</p>
                     </div>
-    
+
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
@@ -127,7 +127,7 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <p class="twitter"></p>
 
                 </header>
@@ -149,12 +149,12 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <?php
                         $url = "https://www.dude.fi/feed/";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last update <?php
@@ -197,12 +197,12 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <?php
                         $url = "https://medium.com/feed/@rolle";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last article written <?php
@@ -231,18 +231,18 @@ ob_start();
             <div class="item item-code">
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <?php
                         $url = "https://github.com/ronilaukkarinen.atom";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last line of code <?php
 
                                 $codetime = aika(abs(strtotime($rss->updated . " GMT")), time());
-                                
+
                                 if(!empty($codetime)) :
                                     $codetime = " ". aika(abs(strtotime($rss->updated . " GMT")), time()). " ";
                                 else :
@@ -269,7 +269,7 @@ ob_start();
                         <li><a href="https://bitbucket.org/ronilaukkarinen"><span class="fa fa-bitbucket"></span>Bitbucket</a></li>
                         <li><a href="http://www.codeivate.com/users/rolle"><span class="fa fa-code"></span>Codeivate</a></li>
                         <li><a href="https://wakatime.com/@rolle"><img src="images/wakatime.svg" alt="WakaTime" />WakaTime</a></li>
-                    </ul>                
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -287,7 +287,7 @@ ob_start();
                     <ul class="links">
                         <li><a href="http://www.huurteinen.fi"><span class="fa fa-rss"></span>Huurteinen.fi - A beer blog</a></li>
                         <li><a href="https://untappd.com/user/rolle"><img src="images/untappd.svg" alt="Untappd" />Untappd beer check-ins</a></li>
-                    </ul>               
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -297,12 +297,12 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                
+
                     <?php
                         $url = "http://problemsolv.in/feed/";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last update <?php
@@ -327,7 +327,7 @@ ob_start();
                     <div class="notes">
                         <p><span class="fa fa-flag"></span>Language: English</p>
                     </div>
-    
+
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
 
@@ -335,7 +335,7 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                            
+
                     <p>No longer maintained.</p>
 
                 </header>
@@ -350,7 +350,7 @@ ob_start();
 
                     <ul class="links">
                         <li><a href="http://about.me/rolle"><img src="images/aboutme.svg" alt="About.me" />About.me</li>
-                    </ul>    
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -358,16 +358,16 @@ ob_start();
             <div class="item item-photos">
 
                 <?php
-                 
+
                 /**
                    * Instagram PHP API
                    *
                    * @link https://github.com/cosenary/Instagram-PHP-API
                    * @author Christian Metz
                    */
-                
+
                   include 'inc/instagram/index.php';
-                  
+
                 ?>
 
                 <div class="item-wrapper">
@@ -379,8 +379,8 @@ ob_start();
                     <ul class="links">
                         <li><a href="http://instagram.com/rolle_"><span class="fa fa-instagram"></span>Instagram</a></li>
                         <li><a href="https://www.flickr.com/photos/rolle-/"><span class="fa fa-flickr"></span>Flickr</li>
-                        <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>  
-                    </ul>               
+                        <li><a href="http://rolle.vsco.co/"><img src="images/vsco.svg" alt="VSCO" />VSCO</li>
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -395,7 +395,7 @@ ob_start();
 
                 <header class="item-header" style="background-image: url('<?php echo $image; ?>');">
                 <div class="shade"></div>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>On the couch <?php
@@ -425,7 +425,7 @@ ob_start();
                         <li><a href="http://www.imdb.com/mymovies/list?l=27761618"><img class="imdb" src="images/imdb.svg" alt="IMDb" />IMDb</a></li>
                         <li><a href="http://trakt.tv/users/rolle"><img src="images/trakt.svg" alt="Trakt" />Trakt</a></li>
                         <li><a href="http://rollemaa.org/leffat/"><span class="fa fa-rss"></span>My movie blog</a></li>
-                    </ul>      
+                    </ul>
 
                 </div><!--/.item-wrapper-->
             </div><!--/.item-->
@@ -478,7 +478,7 @@ ob_start();
                     <h4><span class="fa fa-music"></span> Music</h4>
 
                     <p>I love music, who doesn't? The difference is, I also love the geeky side of it. Like with other things, I like to keep record of my listening habits and for that Last.fm is perfect. It's been already a decade since I registered as a last.fm user in 2005.</p>
-                    
+
                     <p>My music taste is quite elastic and versatile, so please check out my Last.fm profile below to get the whole picture. I also have other profiles and you could follow me in Spotify to get my playlists and so on.</p>
 
                     <ul class="links">
@@ -488,7 +488,7 @@ ob_start();
                         <li><a href="http://www.deezer.com/profile/20268967"><img src="images/deezer.svg" alt="Deezer" />Deezer</a></li>
                         <li><a href="https://soundcloud.com/rolle-6"><span class="fa fa-soundcloud"></span>Soundcloud</a></li>
                         <li><a href="http://www.mikseri.net/user/roll"><span class="fa fa-headphones"></span>Mikseri</a></li>
-                    </ul>               
+                    </ul>
 
                 </div><!--/.item-wrapper-->
 
@@ -504,7 +504,7 @@ ob_start();
 
                 <header class="item-header">
                 <div class="shade"></div>
-                            
+
                         <?php if($rss) : ?>
 
                             <p>Last workout <?php
@@ -518,7 +518,7 @@ ob_start();
                                     echo $lastworkout;
 
                             ?> ago.</p>
-                            
+
                         <?php endif; ?>
 
                 </header>
@@ -540,7 +540,7 @@ ob_start();
 
             <div class="item item-more">
                 <div class="item-wrapper">
-                
+
                     <h4>More?</h4>
 
                     <p>Oh, you bet! I'm registered in over 160 social networks, I blog in 8 blogs, I have hundreds of projects and I'm practically all over the Internet.</p>
@@ -569,11 +569,11 @@ ob_start();
                         $url = "https://github.com/ronilaukkarinen/rolle.wtf/commits/master.atom";
                         $rss = simplexml_load_file($url);
                     ?>
-                            
+
                         <?php if($rss) : ?>
 
                             <p><a class="last-commit" href="<?php echo $rss->entry->link['href']; ?>">Updated <?php
-                            
+
                                 $updatetime = aika(abs(strtotime($rss->entry->updated)), time());
                                 if(!empty($updatetime)) :
                                     $updatetime = " ". aika(abs(strtotime($rss->entry->updated)), time()+60) . " ";
@@ -599,13 +599,13 @@ ob_start();
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
+
           ga('create', 'UA-64522118-1', 'auto');
           ga('send', 'pageview');
         </script>
 
         <script src="js/all.js"></script>
-       
+
     </body>
 </html>
 
